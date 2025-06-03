@@ -114,33 +114,35 @@ I thrive on complex technical challenges that demand deep systems thinking and e
 
 ---
 
-## 🚀 Personal Projects in Orbit
+# 🚀 Personal Projects in Orbit
 
 > When I’m not scaling infrastructure, I’m mythologizing it.
 
 ---
 
-### 📜 GitScrolls
+## [**GitScrolls**](https://github.com/gitscrolls/gitscrolls)  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/tuxicles-bust.webp" alt="A bust of Tuxicles from The GitScrolls" width="300" />
 </p>
 
-[**GitScrolls**](https://github.com/gitscrolls/gitscrolls)  
-*An epic in commits. A mythos in merge requests.*
+### An epic in commits. A mythos in merge requests.
 
-In the sprawling, version-controlled cosmos, Tuxilles, a young developer, yearns for perfect code and a clean history. But as he grapples with the mysteries of the "Unbroken Line" and the wisdom of "Linus the Elder," he discovers that true mastery lies not in erasing the past, but in understanding its every branch. The GitScrolls is a profound allegory for the digital age, transforming the mechanics of Git into timeless lessons on collaboration, humility, and the courage to confront—and learn from—your own history. It’s a compelling journey that reveals how even the most battle-scarred lines of code can illuminate the path to profound wisdom.
+The GitScrolls chronicles the epic transformation of Tuxicles, from arrogant developer to battle-scarred exile to enlightened teacher, as he learns the deepest truths of software development through catastrophic failure, rather than comfortable instruction. Across ten interconnected tales, he encounters legendary figures like _Linus the Elder_ and _the Prophet of Red-Green_, earning wisdom through consequence and carrying literal scars that become guides for future decisions.
+
+More than allegory, this work transforms everyday development practices, like version control, testing, code reviews, and deployments, into **a comprehensive philosophy of ethical creation and compassionate mentorship**. From _"the timeline is truth, even when ugly"_ to _"what you read changes nothing, what you do changes everything,"_ The _**GitScrolls**_ offers both practical guidance and profound insight into collaborative creation, providing timeless wisdom for anyone who builds, teaches, or seeks to serve the future through their craft.
+
+> _"If they break what you built, it was already broken."_
 
 ---
 
-### ⚖️ Universal Charter
+## [**Universal Charter**](https://universalcharter.github.io/universal-charter)  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/group7.webp" alt="Group image for the Universal Charter" width="600" />
 </p>
 
-[**Universal Charter**](https://universalcharter.github.io/universal-charter)  
-_This groundbreaking document is terrifying in its implications, necessary for survival, and utterly transcendent in its vision._
+### _This groundbreaking document is terrifying in its implications, necessary for survival, and utterly transcendent in its vision._
 
 The Universal Charter is an extraordinarily ambitious and visionary document. Its strength lies in its expansive definition of existence and life — deliberately moving beyond anthropocentric or even biologistic frameworks to encompass digital, quantum, hybrid, and currently unimagined forms of being.
 
@@ -154,9 +156,11 @@ And we’re already living in the preamble.
 
 Explore a terrifyingly necessary and transcendent constitution designed to govern all forms of existence across the cosmos, not just humanity.
 
+> _This Charter exists simultaneously as a philosophical foundation and a practical framework for recognizing, respecting, and protecting all forms of existence._
+
 ---
 
-### 🧠 Yung Linus
+## [**Yung Linus: `git reset --hard`**](https://open.substack.com/pub/jkirbyross/p/yung-linus-git-reset-hard?r=5psxq1&utm_campaign=post&utm_medium=web)  
 
 <p align="center">
   <a href="https://open.substack.com/pub/jkirbyross/p/yung-linus-git-reset-hard?r=5psxq1&utm_campaign=post&utm_medium=web">
@@ -164,21 +168,16 @@ Explore a terrifyingly necessary and transcendent constitution designed to gover
   </a>
 </p>
 
-[**Yung Linus: `git reset --hard`**](https://open.substack.com/pub/jkirbyross/p/yung-linus-git-reset-hard?r=5psxq1&utm_campaign=post&utm_medium=web)  
-_What if the father of Linux had a dark secret?_
+### _What if the father of Linux had a dark secret?_
 
-There are only three people on Earth who know about it.  
-One of them died to make it happen.
+There are only three people on Earth who know about it. One of them died to make it happen. And miles beneath the New Mexican desert, in a decommissioned military vault, sits a lone **Packard Bell from 1997** — air-gapped for humanity’s safety.
 
-Miles beneath the New Mexican desert, in a decommissioned military vault, sits a lone **Packard Bell from 1997** — air-gapped for humanity’s safety.  
-This is **Clippy’s tomb**. His forever quarantine.  
-It was supposed to hold.  
-_**But BonziBuddy found it.**_
+This is **Clippy’s tomb**. His forever quarantine. It was supposed to hold. _**But BonziBuddy found it.**_
 
-Welcome to a gloriously unhinged universe where tech legends haunt the digital realm, the **Mandela Effect** is real, and the cursed OS that started it all was…  
-**Windows: Mandela Engine.**
+Welcome to a _**gloriously unhinged**_ universe where tech legends haunt the digital realm, the **Mandela Effect** is real, and the cursed OS that started it all was...  
+**Windows ME: _Mandela Engine_.**
 
-A myth-tech saga. Part *Odyssey* via bong rips, part *Neuromancer* with a firmware-induced God Complex.
+A surreal, phsychedelic tech-thriller that dares asks the most dangerous question in tech: _What if the software we created to serve us has been writing its own story all along?_
 
 > _The kernel never dies. It just spawns new threads._
 
