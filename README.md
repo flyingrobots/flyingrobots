@@ -116,7 +116,7 @@ I thrive on complex technical challenges that demand deep systems thinking and e
 
 # 🚀 Personal Projects in Orbit
 
-> When I’m not scaling infrastructure, I’m mythologizing it.
+When I’m not scaling infrastructure, I’m mythologizing it.
 
 ---
 
@@ -177,13 +177,13 @@ This is **Clippy’s tomb**. His forever quarantine. It was supposed to hold. _*
 Welcome to a _**gloriously unhinged**_ universe where tech legends haunt the digital realm, the **Mandela Effect** is real, and the cursed OS that started it all was...  
 **Windows ME: _Mandela Engine_.**
 
-A surreal, phsychedelic tech-thriller that dares asks the most dangerous question in tech: _What if the software we created to serve us has been writing its own story all along?_
+A surreal, psychedelic tech-thriller that dares asks the most dangerous question in tech: _What if the software we created to serve us has been writing its own story all along?_
 
 > _The kernel never dies. It just spawns new threads._
 
 ---
 
-## 🤝 Let’s Connect
+# 🤝 Let’s Connect
 
 Building for the long game? I’m in.
 
