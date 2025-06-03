@@ -1,4 +1,6 @@
-# 🛠️ Real-Time Systems Architect • 📖 Developer Lorekeeper • ⚖️ Designer of Ethics Beyond Flesh
+# flyingrobots
+
+## 🛠️ Real-Time Systems Architect • 📖 Developer Lorekeeper • ⚖️ Designer of Ethics Beyond Flesh
 
 ![Figures representing various personal projects that I've worked on are gathered in a circle and chatting](https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/flyingrobots-group.webp)
 
@@ -18,88 +20,15 @@ Let’s build something _enduring_.
 
 ## 🧱 What I Build
 
-I architect complex technical systems that others can't figure out. From enterprise data platforms processing billions of events to custom MMO engines supporting thousands of concurrent users, I own the hardest technical problems from research to production.
+I architect complex technical systems that others can't figure out — from enterprise data platforms processing billions of events to custom MMO engines supporting thousands of concurrent users.
 
----
+- **Ember Entertainment (2014–2022)** — Built analytics infrastructure processing 6B+ events across 15+ mobile games. Led 4-person infra team, designed ML churn prediction systems, implemented GDPR-compliant data pipelines.
+- **Gala Games (2022–2024)** — Architected MMO backend for The Walking Dead: Empires. Built from scratch: A* pathfinding, predictive networking with rollback, Redis-backed job orchestration for thousands of concurrent players.
+- **Smile Break (2024–2025)** — Built sophisticated UX for hybrid ARPG/4X gameplay. Allocation-free input systems, async UI loading, game rule engine, Excel-to-game content pipelines.
 
-### 🧮 Enterprise Data Platforms  
-**Ember Entertainment (2014–2022)**  
-Led design and implementation of analytics infrastructure processing 6B+ events across 15+ mobile games.
+**Core Expertise:** Distributed systems, real-time processing, game engines, data platforms, technical leadership.
 
-- End-to-end data flow: client telemetry → S3 → Lambda → Redshift → materialized views  
-- Dynamic schema detection: versioned JSON mapping → auto-indexed models  
-- GDPR-compliant lineage and user data management  
-- Statistical A/B platform with confidence bounds and experiment automation  
-- ML churn prediction pipeline with live scoring + campaign hooks  
-
-**Impact:** Unified analytics across products, improved retention, reduced infra costs.
-
----
-
-### 🌐 Custom Game Engine & Distributed Systems  
-**Gala Games (2022–2024)**  
-Architected MMO backend for *The Walking Dead: Empires* — thousands of players in persistent real-time combat.
-
-- Built from scratch: A* pathfinding, quadtree spatial partitioning, swept collision math  
-- Predictive networking: rollback, client prediction, dirty flags  
-- Redis-backed job orchestration: fault-tolerant, horizontally scalable  
-- EIP-style comms: pub/sub, reactive sync, bot swarm testing clients  
-
-**Impact:** Delivered a globally responsive MMO with robust server-side simulation.
-
----
-
-### 🖱️ Advanced Input & UI Systems  
-**Smile Break (2024–2025)**  
-Built sophisticated UX for hybrid ARPG/4X gameplay.
-
-- Allocation-free input: multi-touch conflict resolution, gesture recognition  
-- `ViewModelProxy`: async UI loading, lifecycle orchestration  
-- Game rule engine: Boolean composition APIs, declarative logic  
-- Excel-to-game pipeline: multi-format, versioned, designer-friendly  
-
-**Impact:** Eliminated UI bottlenecks, enabled complex input, accelerated design iteration.
-
----
-
-### 🧭 Technical Leadership  
-**Core Tech Lead — Ember Entertainment (2018–2022)**
-
-- Led 4-person infra team serving all studio projects  
-- Mentored juniors into tech leads with measurable growth  
-- Drove architecture for systems handling millions of users  
-- Spearheaded engineering practices: reviews, documentation, cross-team alignment  
-
----
-
-### 🧪 Interviewing & Onboarding
-
-- Designed hiring pipelines: code challenges + architecture interviews  
-- Authored onboarding docs that cut ramp-up time significantly  
-- Built internal tooling to boost debug velocity across teams  
-
----
-
-## 🔬 Notable Technical Impact
-
-- **Redis-backed job orchestration** — Built fault-tolerant, horizontally scalable task system for real-time workloads  
-- **MVVM refactor** — Led migration from imperative UI to reactive `ReactiveView<T>` architecture  
-- **Predictive multiplayer networking** — Implemented rollback, input reconciliation, and latency-tolerant systems  
-- **Telemetry → ML pipelines** — Piped user behavior into real-time dashboards, experimentation, and churn models  
-- **Churn prediction + targeted retention** — Boosted retention with predictive signals and real-time campaign triggers  
-- **A/B test platform** — Designed confidence-weighted testing system with rigorous statistical validation  
-- **Mentorship & documentation** — Authored onboarding guides, debug tools, and architectural documentation that scaled across teams  
-
----
-
-## 💡 Core Expertise
-
-- **Systems Architecture:** distributed systems, microservices, real-time processing  
-- **Performance Engineering:** memory, allocations, network, concurrency  
-- **Data Engineering:** ETL, warehousing, analytics, ML pipelines  
-- **Game Dev:** custom engines, input logic, Unity integration  
-- **Leadership:** mentoring, planning, communication, cross-functional sync  
-- **Tools & Tech:** C#, Node.js, Python, Redis, AWS, Docker, Lua, Unity  
+[**Want to know more? Check out my LinkedIn profile for my full professional background.**](https://linkedin.com/in/flyingrobots)
 
 ---
 
