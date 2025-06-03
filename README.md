@@ -2,13 +2,10 @@
 
 ## 🛠️ Real-Time Systems Architect • 📖 Developer Lorekeeper • ⚖️ Designer of Ethics Beyond Flesh
 
+### From MMO backends to developer platforms, I build systems that scale **minds**, not just traffic.  
+
 ![Figures representing various personal projects that I've worked on are gathered in a circle and chatting](https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/flyingrobots-group.webp)
 
-From MMO backends to developer platforms, I build systems that scale **minds**, not just traffic.  
-**Specialties:** real-time responsiveness, fault-tolerant design, clean architecture, and developer acceleration.
-
-📣 Open to opportunities at the intersection of infrastructure, human-centric tooling, and weird, beautiful tech.  
-Let’s build something _enduring_.
 
 > _“Do not trade your history for the illusion of mastery.”_  
 > — **GitScroll I: The Unbroken Line**
@@ -28,11 +25,15 @@ I architect complex technical systems that others can't figure out — from ente
 
 **Core Expertise:** Distributed systems, real-time processing, game engines, data platforms, technical leadership.
 
-[**Want to know more? Check out my LinkedIn profile for my full professional background.**](https://linkedin.com/in/flyingrobots)
+> [**Want to know more? Check out my LinkedIn profile for my full professional background.**](https://linkedin.com/in/flyingrobots)
 
 ---
 
 ## 🔭 What I’m Looking For
+
+
+📣 Open to opportunities at the intersection of infrastructure, human-centric tooling, and weird, beautiful tech.  
+Let’s build something _enduring_.
 
 I thrive on complex technical challenges that demand deep systems thinking and end-to-end execution. I'm seeking roles where I can:
 
