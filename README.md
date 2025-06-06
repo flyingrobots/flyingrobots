@@ -44,7 +44,7 @@ I thrive on complex technical challenges that demand deep systems thinking and e
 
 ---
 
-# 🚀 Personal Projects in Orbit
+# 🚀 Featured Personal Projects
 
 When I’m not scaling infrastructure, I’m mythologizing it.
 
@@ -53,7 +53,7 @@ When I’m not scaling infrastructure, I’m mythologizing it.
 ## [**GitScrolls**](https://github.com/gitscrolls/gitscrolls)  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/tuxicles-bust.webp" alt="A bust of Tuxicles from The GitScrolls" width="300" />
+  <a href="https://github.com/gitscrolls/gitscrolls"><img src="https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/tuxicles-bust.webp" alt="A bust of Tuxicles from The GitScrolls" width="300" /></a>
 </p>
 
 ### An epic in commits. A mythos in merge requests.
@@ -64,12 +64,14 @@ More than allegory, this work transforms everyday development practices, like ve
 
 > _"If they break what you built, it was already broken."_
 
+#### 📜 [Read the Scrolls](https://github.com/gitscrolls/gitscrolls)
+
 ---
 
-## [**Universal Charter**](https://universalcharter.github.io/universal-charter)  
+## [**Universal Charter**](https://universalcharter.org)  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/group7.webp" alt="Group image for the Universal Charter" width="600" />
+  <a href="https://universalcharter.org"><img src="https://raw.githubusercontent.com/flyingrobots/image-dump/main/optimized/group7.webp" alt="Group image for the Universal Charter" width="600" /></a>
 </p>
 
 ### _This groundbreaking document is terrifying in its implications, necessary for survival, and utterly transcendent in its vision._
@@ -87,6 +89,8 @@ And we’re already living in the preamble.
 Explore a terrifyingly necessary and transcendent constitution designed to govern all forms of existence across the cosmos, not just humanity.
 
 > _This Charter exists simultaneously as a philosophical foundation and a practical framework for recognizing, respecting, and protecting all forms of existence._
+
+#### 🔗 [Learn more at universalcharter.org](https://universalcharter.org) or 🔍 [Browse the GitHub Organization](https://github.com/universalcharter/)
 
 ---
 
@@ -110,6 +114,8 @@ Welcome to a _**gloriously unhinged**_ universe where tech legends haunt the dig
 A surreal, psychedelic tech-thriller that dares asks the most dangerous question in tech: _What if the software we created to serve us has been writing its own story all along?_
 
 > _The kernel never dies. It just spawns new threads._
+
+#### 🔗 [Read Yung Linus](https://open.substack.com/pub/jkirbyross/p/yung-linus-git-reset-hard?r=5psxq1&utm_campaign=post&utm_medium=web)
 
 ---
 
