@@ -11,7 +11,7 @@ Over 18 years I’ve built distributed systems that handle billions of events, M
 |---------|-------------|
 | [Wesley](https://github.com/flyingrobots/wesley) | **GraphQL is your schema** Generate Postgres, TypeScript, Zod, Supabase. Never think about migrations again |
 | [GitScrolls](https://github.com/gitscrolls/gitscrolls) | A 16-part **mythic epic teaching Git** through one developer’s tragic force-push |
-| [Shiplog](https://github.com/flyingrobots/shiplog) | **Deployment logs, versioned in Git**, where they belon |
+| [Shiplog](https://github.com/flyingrobots/shiplog) | **Deployment logs, versioned in Git**, where they belong |
 | [Git Mind](https://github.com/neuroglyph/git-mind) | **Git as a database-less graph database**. A semantic knowledge graph for distributed cognition, and human–AI co-thought |
 | [Hubless](https://github.com/flyingrobots/hubless) | **Git-native project flow**. Issues, Kanban, execution—all in your repo. Freedom from vendor lock-in. It's your project, take it with you |
 | [Universal Charter](https://universalcharter.org) | **Ethics for tomorrow.** Principles for coexistence between biological, artificial, and hybrid intelligences |
