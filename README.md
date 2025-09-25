@@ -1,34 +1,46 @@
 # flyingrobots
 
-> [!TIP]
-> ## Hire Me
-> 
-> I'm looking for work. 
->
-> If you're building something ambitious and want fewer problems in your life, let's talk.
-> 
-> 📧 [james@flyingrobots.dev](mailto:james@flyingrobots.dev)   
-> 🔗 [LinkedIn](https://linkedin.com/in/flyingrobots) 
->
-> 📍 Seattle, WA • 🌐 Remote Work = OK
+<img src="https://github.com/user-attachments/assets/71fa6ee1-cf53-442c-99e1-61c961a265f7" width="600" align="right" /> 
 
+### The Last Owner of Your Problems
 
+Staff Engineer with 18 years of experience building **distributed systems at scale**, training **ML models**, and crafting **custom game engines**.
 
-## The Last Owner of Your Problems
+My philosophy is simple: the ultimate solution is the one that makes the problem cease to exist entirely. I do my best work behind the scenes, looking across systems to spot issues teams don't even know they have yet, and building the technology that unlocks their full potential.
 
-I don’t just fix problems, I make them disappear. I solve them so thoroughly the team forgets they ever existed.
+This GitHub profile showcases my latest work, circling around persistent data, AI execution, and ethical software. Each project aims to erase entire categories of developer pain.
 
-Over my 18-year career I’ve built distributed systems that handle billions of events, ML models that identify churners, and custom game engines scaling to thousands of concurrent players. 
-
-I love working across disciplines, solving problems before teams even know they have them, and building technology that empowers, unlocks, and multiplies an organization's potential.
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/71fa6ee1-cf53-442c-99e1-61c961a265f7" width="600" />
-</p>
-
+---
 
 ### Current Art
 
+I've always been drawn to databases, especially graphs, and the strange elegance of **using Git as a graph database-less database**. It’s an idea I had 15 years ago, but only recently put into practice. Turns out Git works beautifully, not just as a distributed graph database, but also as a ledger.
+
+* **🧠 Git Mind**: Preserve tribal knowledge when people churn. Keep cognition distributed. Git with semantics. See not just how code changed over time, but how understanding grew with it.
+* **📋 Shiplog**: Stop archaeology sessions during liveops. Deployment logs, versioned in Git. Who, what, where, when, why, and how your software was released, all living with the code itself, in Git, where it always belonged in the first place.
+
+On another front, I was building a nonprofit pet adoption platform and found myself migrating schemas for the 15th time. Writing migrations felt... unnecessary. Why do we have to describe the same shape half a dozen times all for the same programming language?! There had to be a better way. And there is! The answer was there all along: **GraphQL as the single source of truth**.
+
+* **🚀 Wesley**: Eliminate boilerplate. Generate your entire stack from one truth: GraphQL as schema. Never think about migrations or fight drift again.
+
+My work in AI execution focuses on transforming complex plans into optimized graphs, then swarming them with autonomous agents.
+
+* **⚔️ T.A.S.K.S. + S.L.A.P.S.**: Decompose ideas into anti-chain graphs, then unleash AI swarms to execute them. What once took months now takes hours.
+* **🛡️ MIND-UCAL License**: No killer robots. No weapons. No evil AI.
+
+---
+
+### Let's Talk
+
+I’m currently seeking new roles. If your team is tackling ambitious problems, I’d love to help make them disappear.
+
+* **📧** james@flyingrobots.dev
+* **🔗** LinkedIn
+* **📍** Seattle, WA (Remote OK)
+
+---
+
+### Featured Projects
 
 | Project | Description | Status |
 |---------|-------------|--------|
@@ -41,9 +53,8 @@ I love working across disciplines, solving problems before teams even know they 
 | [Universal Charter](https://universalcharter.org) | **Ethics for tomorrow.** Principles for coexistence between biological, artificial, and hybrid intelligences.<br />![Charter Badge](https://img.shields.io/badge/Universal_Charter-Post_Anthropocentric_Ethics-brightgreen?style=flat-square) | v1.0.0 |
 | [MIND-UCAL Software License](https://github.com/UniversalCharter/mind-ucal) | The MIND-UCAL License is an ethical software license that forbids harmful uses like military weapons and surveillance while allowing for personal, commercial, and ethical AI applications. **No weapons. No killer robots. No evil AI.**<br />[![License: MIND-UCAL v1.0](https://img.shields.io/badge/License-MIND--UCAL%20v1.0-orange?logo=fire&logoColor=fff&labelColor=000)](https://github.com/UniversalCharter/mind-ucal/blob/v1.0/LICENSE.md) | v1.0.0 |
 
+---
 
-### About Me
-
-- **Currently**: Building tools that delete entire categories of developer pain.
-- **Previously**: Staff Engineer in gaming and platform engineering for 18 years, building systems that served millions.
-- **Philosophy**: The ultimate solution is the one that makes the problem cease to exist entirely.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/flyingrobots/image-dump/7ddf8ec20119dfcc802dc710c51a46b9ebf551c8/optimized/no_killer_robots_patch_peace_movement.svg" height="200" alt="No Killer Robots Badge" />
+</p>
