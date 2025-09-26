@@ -26,7 +26,7 @@ On another front, I was building a nonprofit pet adoption platform and found mys
 My work in AI execution focuses on transforming complex plans into optimized graphs, then swarming them with autonomous agents.
 
 * **⚔️ [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS)**: Decompose ideas into anti-chain graphs, then unleash AI swarms to execute them. What once took months now takes hours.
-* **🛡️ [MIND-UCAL License]([https://github.com/univer](https://github.com/UniversalCharter/mind-ucal)**: No killer robots. No weapons. No evil AI.
+* **🛡️ [MIND-UCAL License](https://github.com/UniversalCharter/mind-ucal)**: No killer robots. No weapons. No evil AI.
 
 ---
 
