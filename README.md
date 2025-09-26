@@ -16,17 +16,17 @@ This GitHub profile showcases my latest work, circling around persistent data, A
 
 I've always been drawn to databases, especially graphs, and the strange elegance of **using Git as a graph database-less database**. It’s an idea I had 15 years ago, but only recently put into practice. Turns out Git works beautifully, not just as a distributed graph database, but also as a ledger.
 
-* **🧠 Git Mind**: Preserve tribal knowledge when people churn. Keep cognition distributed. Git with semantics. See not just how code changed over time, but how understanding grew with it.
-* **📋 Shiplog**: Stop archaeology sessions during liveops. Deployment logs, versioned in Git. Who, what, where, when, why, and how your software was released, all living with the code itself, in Git, where it always belonged in the first place.
+* **🧠 [Git Mind](https://github.com/neuroglyph/git-mind)**: Preserve tribal knowledge when people churn. Keep cognition distributed. Git with semantics. See not just how code changed over time, but how understanding grew with it.
+* **📋 [Shiplog](https://github.com/flyingrobots/shiplog)**: Stop archaeology sessions during liveops. Deployment logs, versioned in Git. Who, what, where, when, why, and how your software was released, all living with the code itself, in Git, where it always belonged in the first place.
 
 On another front, I was building a nonprofit pet adoption platform and found myself migrating schemas for the 15th time. Writing migrations felt... unnecessary. Why do we have to describe the same shape half a dozen times all for the same programming language?! There had to be a better way. And there is! The answer was there all along: **GraphQL as the single source of truth**.
 
-* **🚀 Wesley**: Eliminate boilerplate. Generate your entire stack from one truth: GraphQL as schema. Never think about migrations or fight drift again.
+* **🚀 [Wesley](https://github.com/flyingrobots/wesley)**: Eliminate boilerplate. Generate your entire stack from one truth: GraphQL as schema. Never think about migrations or fight drift again.
 
 My work in AI execution focuses on transforming complex plans into optimized graphs, then swarming them with autonomous agents.
 
-* **⚔️ T.A.S.K.S. + S.L.A.P.S.**: Decompose ideas into anti-chain graphs, then unleash AI swarms to execute them. What once took months now takes hours.
-* **🛡️ MIND-UCAL License**: No killer robots. No weapons. No evil AI.
+* **⚔️ [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS)**: Decompose ideas into anti-chain graphs, then unleash AI swarms to execute them. What once took months now takes hours.
+* **🛡️ [MIND-UCAL License]([https://github.com/univer](https://github.com/UniversalCharter/mind-ucal)**: No killer robots. No weapons. No evil AI.
 
 ---
 
@@ -34,9 +34,9 @@ My work in AI execution focuses on transforming complex plans into optimized gra
 
 I’m currently seeking new roles. If your team is tackling ambitious problems, I’d love to help make them disappear.
 
-* **📧** james@flyingrobots.dev
-* **🔗** LinkedIn
-* **📍** Seattle, WA (Remote OK)
+* **📧** [james@flyingrobots.dev](mailto:james@flyingrobots.dev)
+* **🔗** [LinkedIn](www.linkedin.com/in/flyingrobots)
+* **📍** Seattle, WA (Remote = OK)
 
 ---
 
