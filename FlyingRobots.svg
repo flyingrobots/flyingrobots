@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      /* --- Base / reset --- */
+      * { font-weight: 400; }
+      svg { background:#000; color:#fff; }
+
+      /* --- “Font” styles (no external fonts on GitHub) --- */
+      .solid { fill:#eb5528; }
+      /* Fake an outline/sketch look: transparent fill + white stroke */
+      .sketch { fill: none; stroke:#ffffff; stroke-width:6; stroke-linejoin:round; paint-order: stroke fill; }
+
+      /* --- Layout --- */
+      .stage {
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .row { /* holds one set of letters (solid or sketch) */
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .letter {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: wobble 2000ms steps(1, end) infinite,
+                   pulse 1000ms steps(1, end) infinite;
+        animation-delay: var(--delay, 0ms);
+      }
+
+      /* Per-letter stagger rules (match your nth-of-type scheme) */
+      .row > g:nth-child(3n)   .letter { animation-delay: calc(var(--delay, 0ms) - 250ms); }
+      .row > g:nth-child(5n)   .letter { animation-delay: calc(var(--delay, 0ms) - 500ms); }
+      .row > g:nth-child(7n)   .letter { animation-delay: calc(var(--delay, 0ms) - 1000ms); }
+      /* Solid layer had a base delay */
+      .solid-layer .letter { --delay: 200ms; }
+
+      .threads {
+        fill: currentColor;
+        font-size: 80px;
+        white-space: pre;
+      }
+
+      /* --- Animations (use transform, not the individual 'scale' prop) --- */
+      @keyframes wobble {
+        0%   { transform: skew(6deg, 0deg) scale(1); }
+        20%  { transform: skew(-4deg, 0deg) scale(1.1); }
+        40%  { transform: skew(8deg, 0deg) scale(0.9); }
+        60%  { transform: skew(-6deg, 0deg) scale(1.05); }
+        80%  { transform: skew(2deg, 0deg) scale(0.9); }
+        100% { transform: skew(-10deg, 0deg) scale(1.2); }
+      }
+      @keyframes pulse {
+        0%   { transform: translate(0,0) }
+        100% { transform: translate(0,0) } /* kept to preserve two animations like your CSS */
+      }
+    </style>
+  </defs>
+
+  <!-- Background, since README light/dark can clash -->
+  <rect x="0" y="0" width="1200" height="400" fill="#000000"/>
+
+  <!-- We’ll lay out letters manually so each can animate independently.
+       Center: (600, 200). Step ~85px per glyph. Indices -6..+6 for 13 glyphs. -->
+  <g class="stage" transform="translate(600,200)">
+    <!-- WORD: “Flying Robots” broken into letters -->
+    <!-- Letter positions (x): -510,-425,-340,-255,-170,-85, 0, 85,170,255,340,425,510 -->
+    <!-- Row 1: SOLID (orange) -->
+    <g class="row solid-layer solid">
+      <g transform="translate(-510,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">F</text></g>
+      <g transform="translate(-425,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">l</text></g>
+      <g transform="translate(-340,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">y</text></g>
+      <g transform="translate(-255,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">i</text></g>
+      <g transform="translate(-170,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">n</text></g>
+      <g transform="translate(-85,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">g</text></g>
+
+      <g transform="translate(0,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150"> </text></g>
+
+      <g transform="translate(85,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">R</text></g>
+      <g transform="translate(170,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">o</text></g>
+      <g transform="translate(255,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">b</text></g>
+      <g transform="translate(340,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">o</text></g>
+      <g transform="translate(425,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">t</text></g>
+      <g transform="translate(510,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">s</text></g>
+    </g>
+
+    <!-- Row 2: SKETCH (white stroke) sitting on top, same positions -->
+    <g class="row sketch">
+      <g transform="translate(-510,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">F</text></g>
+      <g transform="translate(-425,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">l</text></g>
+      <g transform="translate(-340,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">y</text></g>
+      <g transform="translate(-255,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">i</text></g>
+      <g transform="translate(-170,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">n</text></g>
+      <g transform="translate(-85,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">g</text></g>
+
+      <g transform="translate(0,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150"> </text></g>
+
+      <g transform="translate(85,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">R</text></g>
+      <g transform="translate(170,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">o</text></g>
+      <g transform="translate(255,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">b</text></g>
+      <g transform="translate(340,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">o</text></g>
+      <g transform="translate(425,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">t</text></g>
+      <g transform="translate(510,0)"><text class="letter" y="0" text-anchor="middle" dominant-baseline="middle" font-size="150">s</text></g>
+    </g>
+
+    <!-- “On Threads” badge in the original relative spot: +270 x, +110 y -->
+    <g transform="translate(270,110)">
+      <text class="threads" x="0" y="0" text-anchor="start" dominant-baseline="middle" fill="#ffffff">On Threads</text>
+    </g>
+  </g>
+</svg>
