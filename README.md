@@ -1,46 +1,8 @@
 # flyingrobots
 
-<img width="400" src="https://github.com/user-attachments/assets/4479a7f5-91ea-4bca-9bdc-7746dd14034f" align="left" />
+<img src="https://github.com/user-attachments/assets/4479a7f5-91ea-4bca-9bdc-7746dd14034f" align="left" />
 
-### The Last Owner of Your Problems
-
-Staff Engineer with 18 years of experience building **distributed systems at scale**, training **ML models**, and crafting **custom game engines**.
-
-My philosophy is simple: the ultimate solution is the one that makes the problem cease to exist entirely. I do my best work behind the scenes, looking across systems to spot issues teams don't even know they have yet, and building the technology that unlocks their full potential.
-
-This GitHub profile showcases my latest work, circling around persistent data, AI execution, and ethical software. Each project aims to erase entire categories of developer pain.
-
----
-
-### Current Art
-
-I've always been drawn to databases, especially graphs, and the strange elegance of **using Git as a graph database-less database**. It’s an idea I had 15 years ago, but only recently put into practice. Turns out Git works beautifully, not just as a distributed graph database, but also as a ledger.
-
-* **🧠 [Git Mind](https://github.com/neuroglyph/git-mind)**: Preserve tribal knowledge when people churn. Keep cognition distributed. Git with semantics. See not just how code changed over time, but how understanding grew with it.
-* **📋 [Shiplog](https://github.com/flyingrobots/shiplog)**: Stop archaeology sessions during liveops. Deployment logs, versioned in Git. Who, what, where, when, why, and how your software was released, all living with the code itself, in Git, where it always belonged in the first place.
-
-On another front, I was building a nonprofit pet adoption platform and found myself migrating schemas for the 15th time. Writing migrations felt... unnecessary. Why do we have to describe the same shape half a dozen times all for the same programming language?! There had to be a better way. And there is! The answer was there all along: **GraphQL as the single source of truth**.
-
-* **🚀 [Wesley](https://github.com/flyingrobots/wesley)**: Eliminate boilerplate. Generate your entire stack from one truth: GraphQL as schema. Never think about migrations or fight drift again.
-
-My work in AI execution focuses on transforming complex plans into optimized graphs, then swarming them with autonomous agents.
-
-* **⚔️ [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS)**: Decompose ideas into anti-chain graphs, then unleash AI swarms to execute them. What once took months now takes hours.
-* **🛡️ [MIND-UCAL License](https://github.com/UniversalCharter/mind-ucal)**: No killer robots. No weapons. No evil AI.
-
----
-
-### Let's Talk
-
-I’m currently seeking new roles. If your team is tackling ambitious problems, I’d love to help make them disappear.
-
-* **📧** [james@flyingrobots.dev](mailto:james@flyingrobots.dev)
-* **🔗** [LinkedIn](www.linkedin.com/in/flyingrobots)
-* **📍** Seattle, WA (Remote = OK)
-
----
-
-### Featured Projects
+## Current Art
 
 | Project | Description | Status |
 |---------|-------------|--------|
