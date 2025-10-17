@@ -1,6 +1,6 @@
 # flyingrobots
 
-<img src="https://github.com/user-attachments/assets/71fa6ee1-cf53-442c-99e1-61c961a265f7" width="600" align="right" /> 
+<img width="400" src="https://github.com/user-attachments/assets/4479a7f5-91ea-4bca-9bdc-7746dd14034f" align="left" />
 
 ### The Last Owner of Your Problems
 
