@@ -27,7 +27,7 @@ Run anything with:
 git shiplog run <your-command>
 ```
 
-Shiplog captures stdout, stderr, exit code, timestamp, author, and reason — the who/what/where/when/why/how – and logs it in a signed, immutable ref right inside Git.  
+Shiplog captures stdout, stderr, exit code, timestamp, author, and reason – the who/what/where/when/why/how – and logs it in a signed, immutable ref right inside Git.  
 Deployment logs live with your codebase, but apart from it. Provenance without clutter.  
 
 A built-in allow list enforces policy at the source: only trusted contributors can deploy, or multiple can sign off before a quorum.  
@@ -63,7 +63,7 @@ Something unexpected happens? No problem.
 S.L.A.P.S. rolls back, replans, and resumes. Bulkheads and circuit breakers expose precise control over failure domains.
 
 Together they collapse months of coordination into hours of autonomous graph traversal.  
-From idea to outcome — orders of magnitude faster.
+From idea to outcome. Orders of magnitude faster.
 
 **The AI framework they warned you about.** _Resistance is futile. Your biological distinctiveness will be assimilated into the swarm._
 
