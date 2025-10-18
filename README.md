@@ -53,7 +53,7 @@ From one schema, Wesley compiles your entire backend:
 
 **Your schema is the source of truth. Everything else is a compilation target.** 
 
-### [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS) — The AI Framework They Warned You About
+### [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS) — Next-Gen Autonomous Project Planning and Execution
 
 Your team spends three months coordinating a migration.  
 **T.A.S.K.S.** (_**T**asks **A**re **S**equenced **K**ey **S**teps_) plans it in hours. Analyzing your codebase for dependencies, resource constraints, and reuse opportunities to build a mathematically optimized execution graph.  
