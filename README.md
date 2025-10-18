@@ -12,7 +12,7 @@ That’s what I build. Tools that turn genuinely complex problems (deployment pr
 
 The most elegant solutions don't always involve inventing new tools, but are often instead found in clever new ways of using the tools we already have. My benchmark is not only the complete absence of the original problem, its when things feel obvious, and entire categories of complexity have been eliminated. That's how to unlock a team’s true potential: ensure that tools and workflows are deliberately boring and out of the way. 
 
-### [Shiplog](https://github.com/flyingrobots/shiplog) — The Deployment Primitive (Claude-style rewrite)
+### [Shiplog](https://github.com/flyingrobots/shiplog) — The Deployment Primitive
 
 Remember that 2 AM incident where no one knew which version was deployed or who changed the config?  
 Remember digging through Slack threads and CloudWatch logs trying to reconstruct history?  
