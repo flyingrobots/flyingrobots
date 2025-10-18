@@ -12,7 +12,7 @@ That’s what I build. Tools that turn genuinely complex problems (deployment pr
 
 The most elegant solutions don't always involve inventing new tools, but are often instead found in clever new ways of using the tools we already have. My benchmark is not only the complete absence of the original problem, its when things feel obvious, and entire categories of complexity have been eliminated. That's how to unlock a team’s true potential: ensure that tools and workflows are deliberately boring and out of the way. 
 
-### [Shiplog](https://github.com/flyingrobots/shiplog) — The Deployment Primitive
+### [Shiplog](https://github.com/flyingrobots/shiplog) – The Deployment Primitive
 
 Remember that 2 AM incident where no one knew which version was deployed or who changed the config?  
 Remember digging through Slack threads and CloudWatch logs trying to reconstruct history?  
@@ -36,10 +36,10 @@ Every run verified. Every log auditable. Every action permanent.
 **Zero SaaS. Zero external infra. Zero guesswork.  
 Policy as infrastructure, living with your code.**
 
-### [Wesley](https://github.com/flyingrobots/wesley) — The Data-Layer Compiler
+### [Wesley](https://github.com/flyingrobots/wesley) – The Data-Layer Compiler
 
 Stop describing your data model six times in six different files.  
-Everyone generates GraphQL from databases. Wesley flips the stack — it generates databases from GraphQL.
+Everyone generates GraphQL from databases. Wesley flips the stack and generates databases from GraphQL.
 
 From one schema, Wesley compiles your entire backend:
 
@@ -53,7 +53,7 @@ From one schema, Wesley compiles your entire backend:
 
 **Your schema is the source of truth. Everything else is a compilation target.** 
 
-### [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS) — Next-Gen Autonomous Project Planning and Execution
+### [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS) – Next-Gen Autonomous Project Planning and Execution
 
 Your team spends three months coordinating a migration.  
 **T.A.S.K.S.** (_**T**asks **A**re **S**equenced **K**ey **S**teps_) plans it in hours. Analyzing your codebase for dependencies, resource constraints, and reuse opportunities to build a mathematically optimized execution graph.  
