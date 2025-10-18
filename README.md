@@ -1,6 +1,6 @@
 # James Ross • [Flying Robots](https://flyingrobots.dev)
 
-Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobts) • [Calendly](https://calendly.com/flyingrobots-dev/30min)
+Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots) • [Calendly](https://calendly.com/flyingrobots-dev/30min)
 
 > I build developer tools that eliminate entire categories of complexity, making the hardest parts of engineering feel inevitable, obvious, and invisible.
 
