@@ -14,7 +14,7 @@ The most elegant solutions don't always involve inventing new tools. They're fou
 
 ## On Seeing Patterns
 
-<img alt="romanesco broccoli" src="https://github.com/user-attachments/assets/e6091cf1-cc2f-4990-9b80-88c186fe10d7" align="right" width="400" />
+<img alt="romanesco broccoli" src="https://github.com/user-attachments/assets/e6091cf1-cc2f-4990-9b80-88c186fe10d7" align="left" width="400" />
 
 
 Fifteen years ago I was on lunch break, sitting outside in Seattle after walking through Pike Place Market. I'd just seen Romanesco broccoli for the first time. That fractal vegetable where each floret is a miniature copy of the whole.
@@ -30,6 +30,9 @@ Once you see it, you can't unsee it.
 ---
 
 ## [Shiplog](https://github.com/flyingrobots/shiplog) – The Deployment Primitive
+
+<img src="https://github.com/user-attachments/assets/7934bb47-14ad-4f12-8bea-e3135eceab7d" width="400" alt="Shiplog" align="right" />
+
 
 Remember that 2 AM incident where no one knew which version was deployed or who changed the config?  
 Remember digging through Slack threads and CloudWatch logs trying to reconstruct history?  
@@ -50,11 +53,14 @@ A built-in allow list enforces policy at the source: only trusted contributors c
 **Zero SaaS. Zero external infra. Zero guesswork.**  
 **Policy as infrastructure, living with your code.**
 
-**Status:** [v0.2.1](https://github.com/flyingrobots/shiplog/releases/tag/v0.2.1) • Production Ready
+**Status:** [v0.2.1](https://github.com/flyingrobots/shiplog/releases/tag/v0.2.1) • Active Development (Alpha WIP)
 
 ---
 
 ## [Wesley](https://github.com/flyingrobots/wesley) – The Data-Layer Compiler
+
+<img width="400" alt="Wesley" src="https://github.com/user-attachments/assets/8eec4c88-531f-4342-933a-1914d257c05c" align="right" />
+
 
 Stop describing your data model six times in six different files.  
 Everyone else generates GraphQL from databases. Wesley flips the stack and generates databases from GraphQL.
@@ -80,6 +86,8 @@ Go on, deploy on a Friday.
 
 ## [T.A.S.K.S. + S.L.A.P.S.](https://github.com/flyingrobots/TASKS) – Autonomous Planning & Execution at Graph Scale
 
+<img src="https://github.com/user-attachments/assets/74fb2070-4bc0-469d-aff5-4cfc23d4d8c4" alt="TASKS and SLAPS" width="400" align="right" />
+
 Your team spends three months coordinating a microservices migration.
 
 **T.A.S.K.S.** (_**T**asks **A**re **S**equenced **K**ey **S**teps_) plans it in hours—analyzing your codebase for dependencies, resource constraints, and reuse opportunities to build a mathematically optimized execution graph.
@@ -102,15 +110,19 @@ The AI framework they warned you about. _Resistance is futile. Your biological d
 
 ### [Recursive Metagraphs](https://github.com/meta-graph/core) – Universal Computation Model
 
+<img width="200" alt="Recursive metagraph" src="https://github.com/user-attachments/assets/69368fba-8fc2-407b-830b-c20dce7195d7" align="right" />
+
 **RMG** is a C23 library implementing recursive metagraphs where nodes are graphs, edges are graphs, infinitely recursive. The [mathematical formalization](https://github.com/meta-graph/core/blob/main/docs/rmg-math.md) proves these structures are universal. They can model any computational process.
 
 Git is an RMG. The web is an RMG. Your thought process is an RMG.
 
 This isn't just a neat data structure. It's a unified model for versioning, provenance, state, and change across any domain.
 
-**Status:** ~1170 LOC • Mathematical Foundation Complete • Active Research
+**Status:** Mathematical Foundation Complete • Active Research
 
 ### [Git Mind](https://github.com/neuroglyph/git-mind) – Git as a Graph Database
+
+<img alt="git-mind" src="https://github.com/user-attachments/assets/438d1c95-7b0c-4000-bc55-84eedf9264f2" align="right" width="200" />
 
 What if Git wasn't just source control, but a database-less graph database for semantic knowledge?
 
@@ -118,43 +130,47 @@ What if Git wasn't just source control, but a database-less graph database for s
 
 Your thoughts, versioned. Your collaboration with AI, versioned. All without a database. Just Git.
 
-**Status:** Early Research
+**Status:** MVP • Active Development
 
-### [Hubless](https://github.com/flyingrobots/hubless) – Git-Native Project Flow
-
-Issues, Kanban, execution—all in your repo. No external dependencies. Freedom from vendor lock-in.
-
-It's your project. Take it with you.
-
-**Status:** Early Development
-
----
-
-## Ethics & Principles
+### Ethics & Principles
 
 I believe technology should serve humanity, not harm it.
 
-### [Universal Charter](https://universalcharter.org)
+#### [Universal Charter](https://universalcharter.org)
+
+<img alt="Universal Charter" src="https://github.com/user-attachments/assets/342c2a83-c05e-4272-9fac-80a353be66c8" width="200" align="right" />
 
 Principles for coexistence between biological, artificial, and hybrid intelligences. Post-anthropocentric ethics for a world where we're not the only minds in the room.
 
 **Status:** v1.0.0
 
-### [MIND-UCAL Software License](https://github.com/UniversalCharter/mind-ucal)
+#### [MIND-UCAL Software License](https://github.com/UniversalCharter/mind-ucal)
+
+<img src="https://raw.githubusercontent.com/flyingrobots/image-dump/7ddf8ec20119dfcc802dc710c51a46b9ebf551c8/optimized/no_killer_robots_patch_peace_movement.svg" alt="MIND-UCAL" width="200" align="right" />
 
 An ethical software license that forbids harmful uses—military weapons, surveillance, killer robots—while allowing personal, commercial, and ethical AI applications.
 
 **No weapons. No killer robots. No evil AI.**
 
-**Status:** v1.0.0
+**Status:** v1.0
 
 ---
 
-## Teaching
+### Teaching
 
-### [GitScrolls](https://github.com/gitscrolls/gitscrolls) – The Mythic Developer's Journey
+#### [GitScrolls](https://github.com/gitscrolls/gitscrolls) – The Mythic Developer's Journey
+
+<img width="300![shiplog-final](https://github.com/user-attachments/assets/e80e57c8-24d7-4a24-8bf7-f69bd152ad41)
+" alt="tuxicles" src="https://github.com/user-attachments/assets/58d0f341-aa91-4b7e-b8ec-a9de1e4f0e4d" align="left" />
+
 
 A 16-part epic teaching Git through one developer's tragic force-push. Because the best way to learn version control is through narrative tragedy and redemption.
+
+What happens when you git push --force your ego directly to production?
+
+For Tuxicles, a brilliant but arrogant programmer, the answer is a disaster of epic proportions: 2.3 million broken user sessions, a betrayed community, and a one-way ticket to the Nine Circles of Developer Hell.
+
+Now, he must navigate a hilarious and terrifying underworld where the demons are merge conflicts and the damned are trapped in infinite loops of their own bad habits. Forget everything you know about epic fantasy. To escape, Tuxicles must face the one bug he never thought to fix: himself.
 
 **Status:** Story Edit in Progress
 
