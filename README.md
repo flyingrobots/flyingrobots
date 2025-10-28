@@ -35,7 +35,7 @@ Once you see it, you can't unsee it.
 
 > _"Things are only impossible until they're not." — Jean-Luc Picard_
 
-Echo is an ambitious, mind-bending, fundamentally different computational model for interactive simulations, built on the Recursive Meta-Graph (RMG). In this model, everything is a graph—nodes, edges, and even rewrite rules are all, recursively, graphs. It’s Graphs. All. The. Way. Down.
+Echo is an ambitious, mind-bending, radically different computational model for interactive simulations, built on the Recursive Meta-Graph (RMG). In this model, everything is a graph—nodes, edges, and even rewrite rules are all, recursively, graphs. It’s Graphs. All. The. Way. Down.
 
 Where traditional engines like Unity and Unreal are built on mutable, object-oriented state machines, Echo is fundamentally built different. It replaces mutable objects with a declarative system where the engine rewrites the entire graph using deterministic, typed transformation rules.
 
