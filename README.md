@@ -45,10 +45,21 @@ This powerful, category-theory-backed math eliminates network desyncs forever an
 
 Echo is the future of simulation. Buckle up, because things are gonna get weird.
 
+## [`libgitledger`](https://github.com/flyingrobots/libgitledger) – The [Ledger-Kernel](https://github.com/flyingrobots/ledger-kernel) Reference Implementation
+
+[Ledger-Kernel](https://github.com/flyingrobots/ledger-kernel) is a formal specification and reference implementation ([libgitledger](https://github.com/flyingrobots/libgitledger)) for building verifiable, append-only ledgers directly on top of Git’s object model.
+
+<img src="https://github.com/user-attachments/assets/0f1d8323-6e5b-499b-939b-12e5953e0187" alt="libgitledger" width="250" align="right" />
+
+Unlike blockchains or SaaS audit logs, Ledger-Kernel **is just Git**. It adds deterministic replay, cryptographic attestation, and programmable policy enforcement without introducing new infrastructure.
+
+It uses existing .git storage, requiring no daemons or databases. It enforces fast-forward-only semantics to ensure history is immutable and guarantees deterministic replay, where identical input always yields identical state. Every entry is attested for non-repudiable authorship, and the system supports WASM-based policies for validation.
+
+Sort of like blockchain's weird little cousin. 
+
 ## [Shiplog](https://github.com/flyingrobots/shiplog) – The Deployment Primitive
 
 <img src="https://github.com/user-attachments/assets/7934bb47-14ad-4f12-8bea-e3135eceab7d" width="400" alt="Shiplog" align="right" />
-
 
 Remember that 2 AM incident where no one knew which version was deployed or who changed the config?  
 Remember digging through Slack threads and CloudWatch logs trying to reconstruct history?  
