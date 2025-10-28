@@ -29,6 +29,22 @@ Once you see it, you can't unsee it.
 
 ---
 
+## [ECHO](https://github.com/flyingrobots/echo) – The Impossible Game Engine
+
+<img height="350" alt="Echo" src="https://github.com/user-attachments/assets/f7b02dad-b5c3-46f5-ab6a-9aa87b477653" align="right" />
+
+> _"Things are only impossible until they're not." — Jean-Luc Picard_
+
+Echo is an ambitious, mind-bending, fundamentally different computational model for interactive simulations, built on the Recursive Meta-Graph (RMG). In this model, everything is a graph—nodes, edges, and even rewrite rules are all, recursively, graphs. It’s Graphs. All. The. Way. Down.
+
+Where traditional engines like Unity and Unreal are built on mutable, object-oriented state machines, Echo is fundamentally built different. It replaces mutable objects with a declarative system where the engine rewrites the entire graph using deterministic, typed transformation rules.
+
+The result is a game engine with properties previously considered impossible: perfect confluent determinism.
+
+This powerful, category-theory-backed math eliminates network desyncs forever and makes your world rewindable, forkable, and perfectly mergable. It delivers time-travel debugging, flawless replays, and the capability to build a true multiverse.
+
+Echo is the future of simulation. Buckle up, because things are gonna get weird.
+
 ## [Shiplog](https://github.com/flyingrobots/shiplog) – The Deployment Primitive
 
 <img src="https://github.com/user-attachments/assets/7934bb47-14ad-4f12-8bea-e3135eceab7d" width="400" alt="Shiplog" align="right" />
