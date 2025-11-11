@@ -23,7 +23,7 @@ I realized: nature had been doing recursive graphs for millions of years. We wer
 
 That insight led to [**Recursive Metagraphs**](https://github.com/meta-graph/core) a data structure where nodes are graphs, edges are graphs, infinitely recursive. **Graphs all the way down.** The [mathematical properties](https://github.com/meta-graph/core/blob/main/docs/rmg-math.md) turn out to be universal: this structure can model computation itself.
 
-Git is a specialized recursive metagraph. So is the internet. So is thought.
+> _**Git is a specialized recursive metagraph. So is the internet. So is thought.**_
 
 Once you see it, you can't unsee it.
 
