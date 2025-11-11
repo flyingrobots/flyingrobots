@@ -29,6 +29,33 @@ Once you see it, you can't unsee it.
 
 ---
 
+## [GATOS: *Git As The Operating Surface™*](https://github.com/flyingrobots/gatos)
+
+<img alt="GATOS Git As The Operating Sufrace" src="https://github.com/user-attachments/assets/f7c366b0-967b-45df-8848-6e069fc04cdc" width=350 align="left" />
+
+
+> You use Git for source control.  
+> I use Git for _reality control_.  
+> **We are not the same.**  
+
+What is GATOS?  
+It’s the Operating Surface™ — the place where state, policy, and computation converge.  
+For decades, we’ve been sitting on untapped potential, hiding in plain sight.  
+Git — the most resilient distributed system ever built — has been quietly powering our repositories, waiting for someone to wake it up.  
+_Until now._  
+
+GATOS unlocks Git's true potential: transcending source control, breathing life into the graph itself, weaving commits, refs, and even notes into a rich tapestry of fully programmable, distributed, general-purpose computation.
+
+GATOS takes the most battle-tested state system on Earth and reveals its true form: an **offline-first**, **federated**, **programmable**, **self-governing** compute platform. At its core beats a deterministic, immutable engine of **auditable cryptographic provenance** — all while saying _"Look Ma! No blockchain!"_
+
+By the power of GATOS, Git’s time-travel powers extend beyond code into the realms of computation, collaboration, and consciousness.  
+GATOS enables mind-melds, distributed agency, and systems that don't ask “what if?” — they find out for themselves.  
+
+**GATOS** – Because Git can do far more than version control.  
+_You just have to know how to Git it._
+
+---
+
 ## [ECHO](https://github.com/flyingrobots/echo) – The Impossible Game Engine
 
 <img height="350" alt="Echo" src="https://github.com/user-attachments/assets/f7b02dad-b5c3-46f5-ab6a-9aa87b477653" align="right" />
