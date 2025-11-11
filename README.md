@@ -17,7 +17,9 @@ The most elegant solutions don't always involve inventing new tools. They're fou
 <img alt="romanesco broccoli" src="https://github.com/user-attachments/assets/e6091cf1-cc2f-4990-9b80-88c186fe10d7" align="left" width="400" />
 
 
-Fifteen years ago I was on lunch break, sitting outside in Seattle after walking through Pike Place Market. I'd just seen Romanesco broccoli for the first time. That fractal vegetable where each floret is a miniature copy of the whole.
+_Fifteen years ago I was on lunch break, sitting outside in Seattle after walking through Pike Place Market..._
+
+I'd just seen Romanesco broccoli for the first time. That fractal vegetable where each floret is a miniature copy of the whole.
 
 I realized: nature had been doing recursive graphs for millions of years. We were just late to the party.
 
