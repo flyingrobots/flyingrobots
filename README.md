@@ -38,11 +38,9 @@ Once you see it, you can't unsee it.
 > I use Git for _reality control_.  
 > **We are not the same.**  
 
-What is GATOS?  
-It’s the Operating Surface™ — the place where state, policy, and computation converge.  
-For decades, we’ve been sitting on untapped potential, hiding in plain sight.  
-Git — the most resilient distributed system ever built — has been quietly powering our repositories, waiting for someone to wake it up.  
-_Until now._  
+**What is GATOS?** It’s the Operating Surface™ — the place where state, policy, and computation converge.  
+
+For decades, we’ve been sitting on untapped potential, hiding in plain sight. Git — the most resilient distributed system ever built — has been quietly powering our repositories, waiting for someone to wake it up. _Until now._  
 
 GATOS unlocks Git's true potential: transcending source control, breathing life into the graph itself, weaving commits, refs, and even notes into a rich tapestry of fully programmable, distributed, general-purpose computation.
 
