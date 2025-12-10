@@ -2,6 +2,28 @@
 
 Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots) • [Calendly](https://calendly.com/flyingrobots-dev/30min)
 
+---
+
+<div align="center">
+  <a href="https://github.com/flyingrobots/aion-computer-book/blob/book/computer.pdf">
+    <img alt="COMPUTER" src="https://github.com/user-attachments/assets/33eb8384-f219-410d-bb4f-7ad7ccdd5461" />
+  </a>
+  <h3>The Geometry of All Possible Machines</h3>
+  <p>By James Ross • 2025</p>
+</div>
+
+For too long, we have only seen the shadows of a deeper truth: 
+
+> _Computation is what reality is made of, not just something we do to reality._
+
+Our modern ideas about computers are fundamentally incomplete, based on a flawed grasp of the core mechanisms at work. We see computation as a mere projection of its true form—flattened, simplified, and domesticated by abstractions that have endured since the 1940s. This book urges you to look beyond these projections, to turn toward the source, and to see the true forms behind the shadows. Everything that follows carefully maps the precise geometry of that hidden world.
+
+CΩMPUTER equips us with the vision to perceive the full, multi-dimensional geometry of computation. It introduces the mathematics that can accurately explain why restructuring an aging codebase is so difficult, why it's graphs all the way down, and how to think about rulial space–the domain of possibility. **In confronting computation's "original sin"—mutable state—and, in resolving it, CΩMPUTER offers a blueprint for turning opaque black-box systems into transparent glass-box architectures**. 
+
+Once you learn how to see the intrinsic geometry beyond the machine, you'll start to sense that the older procedural paradigms feel flat. It is an experience like stepping outside Plato’s cave: the familiar shadows of computation give way to a complete, three-dimensional world of structures, laws, and histories that were always there, waiting to be revealed.
+
+### <a href="https://github.com/flyingrobots/aion-computer-book">Read CΩMPUTER For Free</a>
+
 ## Current Art
 
 I build developer tools that eliminate entire categories of complexity.
