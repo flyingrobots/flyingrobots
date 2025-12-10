@@ -12,17 +12,16 @@ Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://l
   <p>By James Ross • 2025</p>
 </div>
 
-For too long, we have only seen the shadows of a deeper truth: 
+We usually treat computation as a tool we apply to reality.   
+**CΩMPUTER** starts from the opposite claim: computation is what reality is made of.
 
-> _Computation is what reality is made of, not just something we do to reality._
+Modern computing is built on mid‑20th‑century abstractions. They work, but they flatten and hide the real structure of computation. We’ve been staring at their shadows instead of the thing itself. This book turns you toward the source and develops a precise mathematical picture of the world those abstractions are only hinting at.
 
-Our modern ideas about computers are fundamentally incomplete, based on a flawed grasp of the core mechanisms at work. We see computation as a mere projection of its true form—flattened, simplified, and domesticated by abstractions that have endured since the 1940s. This book urges you to look beyond these projections, to turn toward the source, and to see the true forms behind the shadows. Everything that follows carefully maps the precise geometry of that hidden world.
+**CΩMPUTER** gives you a way to see the full, multi‑dimensional structure of computation. It introduces mathematics that can explain why restructuring an aging codebase is so difficult, why it’s graphs all the way down, and how to think in rulial space—the landscape of computational possibility. In confronting computation’s “original sin” of mutable state, the book offers a blueprint for turning opaque black‑box systems into transparent glass‑box architectures.
 
-CΩMPUTER equips us with the vision to perceive the full, multi-dimensional geometry of computation. It introduces the mathematics that can accurately explain why restructuring an aging codebase is so difficult, why it's graphs all the way down, and how to think about rulial space–the domain of possibility. **In confronting computation's "original sin"—mutable state—and, in resolving it, CΩMPUTER offers a blueprint for turning opaque black-box systems into transparent glass-box architectures**. 
+Once you learn to see computation in these terms, older procedural paradigms start to feel flat. The experience is like stepping outside Plato’s cave: the familiar shadows of computation give way to a richer world of structures, laws, and histories that were always there, waiting to be explored.
 
-Once you learn how to see the intrinsic geometry beyond the machine, you'll start to sense that the older procedural paradigms feel flat. It is an experience like stepping outside Plato’s cave: the familiar shadows of computation give way to a complete, three-dimensional world of structures, laws, and histories that were always there, waiting to be revealed.
-
-### <a href="https://github.com/flyingrobots/aion-computer-book">Read CΩMPUTER For Free</a>
+<div align="center"><h3><a href="https://github.com/flyingrobots/aion-computer-book">Read CΩMPUTER For Free</a></h3></div>
 
 ## Current Art
 
