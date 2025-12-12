@@ -2,6 +2,8 @@
 
 Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots) • [Calendly](https://calendly.com/flyingrobots-dev/30min)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17908005.svg)](https://doi.org/10.5281/zenodo.17908005)
+
 ---
 
 <div align="center">
