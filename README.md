@@ -2,7 +2,17 @@
 
 Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots) • [Calendly](https://calendly.com/flyingrobots-dev/30min)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17908005.svg)](https://doi.org/10.5281/zenodo.17908005)
+## Published Research
+
+### The AIΩN Foundations Series develops a rigorous semantic framework for deterministic computation over recursive graph-structured state.
+
+The series introduces **WARP graphs** as a minimal, well-founded state object capable of representing nested structure, provenance, and causal history within a single algebraic substrate. Building on this object, it establishes **deterministic operational semantics via graph rewriting**, yielding linear worldlines under explicit scheduling policies. It then develops boundary-based provenance, showing that interior computation histories are recoverable from compact, replayable boundary artefacts. This boundary perspective supports **computational holography**, **partial materialisation** (slicing), **prefix-based branching**, and **provenance-preserving compression**.
+
+Later papers extend the framework to **observer-dependent views of computation**, **ethical constraints on deterministic replay** and **provenance sovereignty**, and **system-level architectural implications**. Throughout, the emphasis is on precise semantics, explicit scope boundaries, and replay-safe abstractions suitable for audit, reproducibility, and long-lived computational systems.
+
+1. [WARP Graphs: A Worldline Algebra for Recursive Provenance](https://doi.org/10.5281/ZENODO.17908005)
+2. [WARP Graphs: Canonical State Evolution and Deterministic Worldlines](https://doi.org/10.5281/ZENODO.17934512)
+3. [WARP Graphs: Computational Holography & Provenance Payloads](https://doi.org/10.5281/ZENODO.17963669)
 
 ---
 
