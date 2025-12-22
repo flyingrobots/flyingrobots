@@ -54,9 +54,9 @@ I'd just seen Romanesco broccoli for the first time. That fractal vegetable wher
 
 I realized: nature had been doing recursive graphs for millions of years. We were just late to the party.
 
-That insight led to [**Recursive Metagraphs**](https://github.com/meta-graph/core) a data structure where nodes are graphs, edges are graphs, infinitely recursive. **Graphs all the way down.** The [mathematical properties](https://github.com/meta-graph/core/blob/main/docs/rmg-math.md) turn out to be universal: this structure can model computation itself.
+That insight led to [**WARP Graphs**](https://github.com/meta-graph/core) a data structure where nodes are graphs, edges are graphs, infinitely recursive. **Graphs all the way down.** The [mathematical properties](https://github.com/meta-graph/core/blob/main/docs/rmg-math.md) turn out to be universal: this structure can model computation itself.
 
-> _**Git is a specialized recursive metagraph. So is the internet. So is thought.**_
+> _**Git is a specialized WARP graph. So is the internet. So is thought.**_
 
 Once you see it, you can't unsee it.
 
@@ -68,7 +68,7 @@ Once you see it, you can't unsee it.
 
 > _"Things are only impossible until they're not." — Jean-Luc Picard_
 
-Echo is an ambitious, mind-bending, radically different computational model for interactive simulations, built on the Recursive Meta-Graph (RMG). In this model, everything is a graph—nodes, edges, and even rewrite rules are all, recursively, graphs. It’s Graphs. All. The. Way. Down.
+Echo is an ambitious, mind-bending, radically different computational model for interactive simulations, built on the WARP Graph (Worldline Algebra for Recursive Provenance). In this model, everything is a graph—nodes, edges, and even rewrite rules are all, recursively, graphs. It’s Graphs. All. The. Way. Down.
 
 Where traditional engines like Unity and Unreal are built on mutable, object-oriented state machines, Echo is fundamentally built different. It replaces mutable objects with a declarative system where the engine rewrites the entire graph using deterministic, typed transformation rules.
 
