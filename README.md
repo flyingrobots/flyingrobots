@@ -11,6 +11,7 @@ Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://l
 1. [WARP Graphs: A Worldline Algebra for Recursive Provenance](https://doi.org/10.5281/ZENODO.17908005)
 2. [WARP Graphs: Canonical State Evolution and Deterministic Worldlines](https://doi.org/10.5281/ZENODO.17934512)
 3. [WARP Graphs: Computational Holography & Provenance Payloads](https://doi.org/10.5281/ZENODO.17963669)
+4. [WARP Graphs: Rulial Distance & Observer Geometry](https://doi.org/10.5281/ZENODO.18038297)
 
 ---
 
