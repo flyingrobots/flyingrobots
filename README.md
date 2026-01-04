@@ -4,7 +4,7 @@ Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://l
 
 > **I’m building AIΩN, a semantic foundation for deterministic computation where execution history is replayable, inspectable, and accountable by construction—not reconstructed after the fact.**
 
-**AIΩN Foundations** is a six-paper research series developing a rigorous semantic framework for deterministic computation over recursive graph-structured state. It introduces **WARP graphs**, deterministic worldlines via graph rewriting, and boundary-based provenance that makes full computation histories replayable, sliceable, and auditable from compact artefacts.
+**AIΩN Foundations** is a seven-paper research series developing a rigorous semantic framework for deterministic computation over recursive graph-structured state. It introduces **WARP graphs**, deterministic worldlines via graph rewriting, and boundary-based provenance that makes full computation histories replayable, sliceable, and auditable from compact artefacts.
 
 ## Published Papers
 
@@ -12,6 +12,7 @@ Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://l
 2. [WARP Graphs: Canonical State Evolution and Deterministic Worldlines](https://doi.org/10.5281/ZENODO.17934512)
 3. [WARP Graphs: Computational Holography & Provenance Payloads](https://doi.org/10.5281/ZENODO.17963669)
 4. [WARP Graphs: Rulial Distance & Observer Geometry](https://doi.org/10.5281/ZENODO.18038297)
+5. [WARP Graphs: Emergent Dynamics from Deterministic Rewrite Systems](https://doi.org/10.5281/zenodo.18146884)
 
 ---
 
