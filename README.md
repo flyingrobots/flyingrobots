@@ -4,7 +4,7 @@ Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://l
 
 > **I’m building AIΩN, a semantic foundation for deterministic computation where execution history is replayable, inspectable, and accountable by construction—not reconstructed after the fact.**
 
-**AIΩN Foundations** is a seven-paper research series developing a rigorous semantic framework for deterministic computation over recursive graph-structured state. It introduces **WARP graphs**, deterministic worldlines via graph rewriting, and boundary-based provenance that makes full computation histories replayable, sliceable, and auditable from compact artefacts.
+The **AIΩN Foundations Series** explores a radical shift in technology, asking us to imagine a computer that stops acting like a calculator and starts acting like a law of physics. Instead of random events, what if your computer’s history became a singular, unbreakable thread; a "Worldline" that allowed you to rewind the universe of your operating system to any second in the past? Crucially, do files actually need to exist at all, or could a machine reconstruct your photos and documents from thin air using nothing but logic and the principle of Computational Holography? At its deepest level, this architecture forces us to ask if a computer built out of recursive graphs, webs within webs, might eventually stop looking like code and start following the same quantum rules as the atoms in our own universe.
 
 ## Published Papers
 
