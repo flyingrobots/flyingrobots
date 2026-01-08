@@ -4,6 +4,9 @@ Seattle, WA • [E-Mail](mailto:james@flyingrobots.dev) • [LinkedIn](https://l
 
 > **I’m building AIΩN, a semantic foundation for deterministic computation where execution history is replayable, inspectable, and accountable by construction—not reconstructed after the fact.**
 
+![aion-logo](https://github.com/user-attachments/assets/678a2aef-0de9-4cbf-81fc-d432213f340c)
+
+
 The **AIΩN Foundations Series** explores a radical shift in technology, asking us to imagine a computer that stops acting like a calculator and starts acting like a law of physics. Instead of random events, what if your computer’s history became a singular, unbreakable thread; a "Worldline" that allowed you to rewind the universe of your operating system to any second in the past? Crucially, do files actually need to exist at all, or could a machine reconstruct your photos and documents from thin air using nothing but logic and the principle of Computational Holography? At its deepest level, this architecture forces us to ask if a computer built out of recursive graphs, webs within webs, might eventually stop looking like code and start following the same quantum rules as the atoms in our own universe.
 
 ## Published Papers
@@ -15,25 +18,6 @@ The **AIΩN Foundations Series** explores a radical shift in technology, asking 
 5. [WARP Graphs: Emergent Dynamics from Deterministic Rewrite Systems](https://doi.org/10.5281/zenodo.18146884)
 
 ---
-
-<div align="center">
-  <a href="https://github.com/flyingrobots/aion-computer-book/blob/book/computer.pdf">
-    <img alt="COMPUTER" src="https://github.com/user-attachments/assets/33eb8384-f219-410d-bb4f-7ad7ccdd5461" />
-  </a>
-  <h3>The Geometry of All Possible Machines</h3>
-  <p>By James Ross • 2025</p>
-</div>
-
-We usually treat computation as a tool we apply to reality.   
-**CΩMPUTER** starts from the opposite claim: computation is what reality is made of.
-
-Modern computing is built on mid‑20th‑century abstractions. They work, but they flatten and hide the real structure of computation. We’ve been staring at their shadows instead of the thing itself. This book turns you toward the source and develops a precise mathematical picture of the world those abstractions are only hinting at.
-
-**CΩMPUTER** gives you a way to see the full, multi‑dimensional structure of computation. It introduces mathematics that can explain why restructuring an aging codebase is so difficult, why it’s graphs all the way down, and how to think in rulial space—the landscape of computational possibility. In confronting computation’s “original sin” of mutable state, the book offers a blueprint for turning opaque black‑box systems into transparent glass‑box architectures.
-
-Once you learn to see computation in these terms, older procedural paradigms start to feel flat. The experience is like stepping outside Plato’s cave: the familiar shadows of computation give way to a richer world of structures, laws, and histories that were always there, waiting to be explored.
-
-<div align="center"><h3><a href="https://github.com/flyingrobots/aion-computer-book">Read CΩMPUTER For Free</a></h3></div>
 
 ## Current Art
 
