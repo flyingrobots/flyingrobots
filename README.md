@@ -90,6 +90,21 @@ An ethical software license that forbids harmful uses—military weapons, survei
 
 ### Teaching
 
+#### [PRAXIS: A Field Guide to the Inevitable](https://github.com/flyingrobots/praxis)
+
+<img width="300!" src="https://github.com/user-attachments/assets/f9431369-abd1-480d-9896-6badb84f5568" align="left" />
+
+You've been hired. The facility is expecting you.
+
+A windowless building. A cowboy in denim who knows too much. Six systems that govern everything: the planners, the executors, the judges, the conscience, the immune system, and something that hums beneath the floor.
+Your job is simple: learn the architecture. Follow the yellow line. Don't ask why your fingerprints keep appearing on glass you haven't touched.
+PRAXIS is a design fiction about collective intelligence, alignment, and the moment you realize you were never outside the system observing it. Part facility tour, part horror story, part warning label—it asks what governance looks like when it 
+emerges from machines the way gravity emerges from mass.
+
+There's a red phone in a white room. It will ring.
+
+Don't forget your badge.
+
 #### [GitScrolls](https://github.com/gitscrolls/gitscrolls) – The Mythic Developer's Journey
 
 <img width="300![shiplog-final](https://github.com/user-attachments/assets/e80e57c8-24d7-4a24-8bf7-f69bd152ad41)
