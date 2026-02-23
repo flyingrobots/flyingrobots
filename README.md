@@ -37,10 +37,3 @@ Together, let’s:
 ### THE REVΩLUTION WILL BE DETERMINISTIC
 ### THE PROOF IS MATHEMATICAL, AND CONSTRUCTIVE
 ### TIME WILL TELL
-
----
-
-# [git-warp](https://github.com/git-stunts/git-warp)
-
-Multi-writer, conflict-free graph database built on top of Git plumbing. Invisible to Git tools, offline-first, decentralized, eventually consistent. Time-travel, declaritive views, 
-  
