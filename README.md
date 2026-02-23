@@ -2,6 +2,8 @@
 
 Seattle, WA • [Email](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots)
 
+![compsci](https://github.com/user-attachments/assets/18067c4f-fad0-4838-ae12-1e7cc3a44b92)
+
 ---
 
 ```rust
@@ -22,7 +24,7 @@ Seattle, WA • [Email](mailto:james@flyingrobots.dev) • [LinkedIn](https://li
 
 # Is the universe a deterministic graph rewrite engine, or does it just look like one because we're imperfect observers?
 
-I build systems around WARP graphs: bit-perfect replay, time-travel debugging, provenance sovereignty, and computational holography. 
+I build systems around [WARP graphs](https://doi.org/10.5281/zenodo.17908005): bit-perfect replay, time-travel debugging, provenance sovereignty, and [computational holography](https://doi.org/10.5281/zenodo.17963669). 
 
 Computation is more beautiful than we’ve been told. There’s a geometry of thought and a physics of computation. With the right invariants, the structure snaps into focus, and computers become truth-powered time machines that can show us not just what happened, but what could have happened, too.
 
@@ -36,6 +38,9 @@ Together, let’s:
 ### THE PROOF IS MATHEMATICAL, AND CONSTRUCTIVE
 ### TIME WILL TELL
 
+---
 
+# [git-warp](https://github.com/git-stunts/git-warp)
 
+Multi-writer, conflict-free graph database built on top of Git plumbing. Invisible to Git tools, offline-first, decentralized, eventually consistent. Time-travel, declaritive views, 
   
