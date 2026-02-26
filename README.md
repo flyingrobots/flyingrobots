@@ -62,10 +62,10 @@ This is the theoretical backbone of my work: a "graphs all the way down" philoso
 Dive in to rethink reality—one rewrite at a time.
 
 #### [CΩMPUTER](https://github.com/flyingrobots/aion-computer-book) 
-Free PDF exploring computation as base reality
+A book exploring computation as base reality.
 
 #### [Continuum OS](https://github.com/flyingrobots/continuum)
-A causal runtime with holographic artifacts (NOTE: very early)
+A causal runtime with holographic artifacts (NOTE: very early).
 
 #### [Echo](https://github.com/flyingrobots/echo)
 A high-performance real-time WARP graph rewrite engine for real-time interactive simulations.
