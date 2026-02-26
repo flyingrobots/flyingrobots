@@ -37,8 +37,8 @@ Together, let’s:
 
 ## [AIΩN](https://github.com/flyingrobots/aion)
 
-> THE REVΩLUTION WILL BE DETERMINISTIC
-> THE PROOF IS MATHEMATICAL, AND CONSTRUCTIVE
+> THE REVΩLUTION WILL BE DETERMINISTIC  
+> THE PROOF IS MATHEMATICAL, AND CONSTRUCTIVE  
 > TIME WILL TELL
 
 AIΩN is a formal framework for deterministic, history-native computation. It flips the script on traditional systems by making transformations (not states) the core unit of storage—unlocking reproducible builds, deterministic concurrency, and unbreakable provenance. Built on WARP graphs and double-pushout (DPO) rewriting, it turns computation into a verifiable, rewindable multiverse where quantum-like behaviors and time itself emerge from observer geometry.
