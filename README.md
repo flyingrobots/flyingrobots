@@ -9,7 +9,8 @@ Seattle, WA
 
 ## Is the universe a deterministic graph rewrite engine… or does it just *look* like one because we’re imperfect observers?
 
-I build systems around **WARP graphs**: deterministic replay, time-travel debugging, provenance sovereignty, and **computational holography**.  
+I build systems around **WARP graphs**: deterministic replay, time-travel debugging, provenance sovereignty, and **computational holography**. 
+
 If you’ve ever wanted to **rewind a system**, inspect it like a crime scene, fork it like a multiverse, and still keep the receipts—hi.
 
 - **Deterministic replay**: rewind, inspect, fork any execution
@@ -37,6 +38,7 @@ If you’ve ever wanted to **rewind a system**, inspect it like a crime scene, f
 ## AIΩN
 
 AIΩN treats computation as a **verifiable rewrite process**: transformations are the primary artifact, not ephemeral state.
+
 Built on WARP graphs and **double-pushout (DPO) rewriting**, it turns execution into a rewindable, forkable history with provenance you can actually trust.
 
 It’s “graphs all the way down” with a practical goal: **systems that can explain themselves**. What happened, why, and what would’ve happened if we’d chosen differently.
