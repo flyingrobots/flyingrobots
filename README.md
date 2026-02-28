@@ -30,7 +30,7 @@ If you’ve ever wanted to **rewind a system**, inspect it like a crime scene, f
 | **[AIΩN](https://github.com/flyingrobots/aion)** | Formal framework for deterministic, history-native computation | “Transforms, not states.” Replayability as a first-class invariant. |
 | **[Echo](https://github.com/flyingrobots/echo)** | Real-time WARP rewrite engine (Rust) | Deterministic simulation you can rewind and fork without lying to yourself. |
 | **[Git-WARP](https://github.com/git-stunts/git-warp)** | WARP graph engine on Git commits | CRDT-friendly history with deterministic replay and brutal simplicity. |
-| **[xyph](https://github.com/flyingrobots/xyph)** | Planning compiler for agentic collaboration | The roadmap *is* the graph—coordination becomes computable. |
+| **[xyph](https://github.com/flyingrobots/xyph)** | Reificatory Engine | Xyph it done. |
 | **[git-mind](https://github.com/flyingrobots/git-mind)** | Semantic knowledge graph on Git | Version your thoughts. Branch ideas. Merge understanding. |
 
 ---
