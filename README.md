@@ -6,10 +6,11 @@
 
 <hr />
 
-☕️ Seattle, WA
-📥 [Email](mailto:james@flyingrobots.dev)
-🔗 [LinkedIn](https://linkedin.com/in/flyingrobots)
-📄 [Résumé](https://www.flyingrobots.dev/james-ross-resume.pdf)
+<h3>
+📥 <a href="mailto:james@flyingrobots.dev">Email</a>
+🔗 <a href="https://linkedin.com/in/flyingrobots">LinkedIn</a>
+📄 <a href="https://www.flyingrobots.dev/james-ross-resume.pdf">Résumé</a>
+</h3>
 
 ![compsci](https://github.com/user-attachments/assets/18067c4f-fad0-4838-ae12-1e7cc3a44b92)
 </div>
@@ -44,7 +45,11 @@ If you’ve ever wanted to **rewind a system**, inspect it like a crime scene, f
 
 ---
 
-## AIΩN
+<div align="center">
+<img src="https://github.com/user-attachments/assets/287ab2bc-653f-4951-adca-1766d5437082" />
+</div>
+
+<hr />
 
 AIΩN treats computation as a **verifiable rewrite process**: transformations are the primary artifact, not ephemeral state.
 
@@ -71,7 +76,11 @@ It’s “graphs all the way down” with a practical goal: **systems that can e
 
 ---
 
-## Git Stunts
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3838c7ec-2042-422a-bf6c-99c57cdbba6a" />
+</div>
+
+<hr />
 
 Git is the most battle-tested software on Earth.  
 It’s also—quietly **a primitive WARP graph**.
