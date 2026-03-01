@@ -59,7 +59,7 @@ Git is the most battle-tested software on Earth.
 
 It’s also _quietly_ **a primitive WARP graph**.
 
-I run a GitHub organization called **[git-stunts](https://github.com/git-stunts)**, where I publish projects that treat Git plumbing as a foundation for unconventional systems—databases, content graphs, event buses, coordination protocols. 
+I run a GitHub organization called **[git-stunts](https://github.com/git-stunts)**, where I publish projects that treat Git plumbing as a foundation for unconventional systems: databases, content graphs, event buses, coordination protocols. 
 
 These are **stunts**, _not hacks_: deliberate and grounded in how Git really works. These projects are about understanding tools deeply enough that surprising architectures emerge naturally. 
 
