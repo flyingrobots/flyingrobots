@@ -5,7 +5,7 @@
 
 <hr />
 
-☕ Seattle, WA 🌲 <br />
+☕ Seattle, WA 🌲 
 [Email](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots)
 
 ![compsci](https://github.com/user-attachments/assets/18067c4f-fad0-4838-ae12-1e7cc3a44b92)
