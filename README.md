@@ -1,9 +1,10 @@
-# James Ross • Flying Robots
+<div align="center"><h1><code><a href="https://flyingrobots.dev">Flying Robots</a></code></h1>
 
-Seattle, WA  
-[Email](mailto:james@flyingrobots.dev) • [Website](https://flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots)
+☕ Seattle, WA 🌲 <br />
+[Email](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots)
 
 ![compsci](https://github.com/user-attachments/assets/18067c4f-fad0-4838-ae12-1e7cc3a44b92)
+</div>
 
 ---
 
