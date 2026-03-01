@@ -5,8 +5,10 @@
 
 <hr />
 
-☕ Seattle, WA 🌲 
-[Email](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots)
+☕️ Seattle, WA
+📥 [Email](mailto:james@flyingrobots.dev)
+🔗 [LinkedIn](https://linkedin.com/in/flyingrobots)
+📄 [Résumé](https://www.flyingrobots.dev/james-ross-resume.pdf)
 
 ![compsci](https://github.com/user-attachments/assets/18067c4f-fad0-4838-ae12-1e7cc3a44b92)
 </div>
