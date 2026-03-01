@@ -1,7 +1,6 @@
 <div align="center">
 <a href="https://flyingrobots.dev">
 <img src="https://github.com/user-attachments/assets/fc06206f-437f-49e2-bbd0-a72330b95579" />
-
 </a>
 
 <hr />
@@ -12,7 +11,79 @@
 📄 <a href="https://www.flyingrobots.dev/james-ross-resume.pdf">Résumé</a>
 </h3>
 
+</div>
+
+<hr />
+
+# Senior Distributed Systems Engineer
+
+I’ve spent nearly two decades building production distributed systems, MMO backends, data platforms, DevOps pipelines, high-throughput event systems, custom engines, and infrastructure that had to survive reality.
+
+After years of debugging race conditions, chasing nondeterminism, and watching mutable state systems lie under pressure, I started asking a more fundamental question:
+
+What if computation wasn’t about state at all?
+
+What if it was about *structure evolving through rules*?
+
+---
+
+## WARP Graphs: _Worldline Algebra for Recursive Provenance_
+
+Modern systems are not really "state machines." They are evolving graphs of relationships.
+
+If we treat them that way, literally, and build around rewrite rules instead of mutable state, we gain something powerful:
+
+- **Always-on time travel debugging**
+- **Bit-perfect determinism across platforms**
+- **Complete system-wide provenance**
+- **Lockless concurrency where race conditions are impossible by construction**
+
+This is the foundation of the systems I build. I formalize this model as **WARP graphs**, a deterministic rewrite substrate for replayable, inspectable computation.
+
+This GitHub is where I publish the systems that emerge from that idea.
+
+---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3838c7ec-2042-422a-bf6c-99c57cdbba6a" />
+</div>
+
+<hr />
+
+### I ❤️ Git
+
+Git is the most battle-tested software on Earth.  
+
+It’s also _quietly_ **a primitive WARP graph**.
+
+I run a GitHub organization called **[git-stunts](https://github.com/git-stunts)**, where I publish projects that treat Git plumbing as a foundation for unconventional systems—databases, content graphs, event buses, coordination protocols. 
+
+These are **stunts**, _not hacks_: deliberate and grounded in how Git really works. These projects are about understanding tools deeply enough that surprising architectures emerge naturally. 
+
+The ability to deconstruct a system to its primitives is one of the most valuable skills in an engineer's toolkit. The repos in this org are about learning more than just how Git works under the hood. We aren't playing Macgyver with Git just for the fun of it; we do it to understand how to think outside the box when conventional tools fail.
+
+Often, the most elegant solutions come from looking at the tools we use every day and asking _"What else can this thing do?"_
+
+### Planned Stunts
+
+| Part | Title | Status | Stunt | Lesson |
+|------|-------|--------|-------|--------|
+| I | Git as CMS | In Review | `commit-tree` as a DB-less API | Protocols reduce ops |
+| II | Git as KV Store | Planned | KV using OIDs + notes | CAP tradeoffs in the real world |
+| III | Git as Bus | Planned | `post-receive` hooks for pub/sub | Eventing under constraints |
+| IV | Git FUSE | Planned | Virtual filesystem via OIDs | Lazy hydration + virtualization |
+| V | Agent-Native Git | Planned | RAG + decisions via history | Verifiable memory for LLM work |
+| VI | Git as Zero-Trust Gateway | Planned | AST validation in hooks | Shift-left security at the transport |
+
+Follow along for some hot git 🔥 (and occasional self-inflicted pain).
+
+- **[git-cas](https://github.com/git-stunts/git-cas)** — Git, freebased: pure CAS that’ll knock your SHAs off. LFS hates this repo!
+
+
+<hr />
+
 ![compsci](https://github.com/user-attachments/assets/18067c4f-fad0-4838-ae12-1e7cc3a44b92)
+
 </div>
 
 ---
@@ -76,28 +147,3 @@ It’s “graphs all the way down” with a practical goal: **systems that can e
 
 ---
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/3838c7ec-2042-422a-bf6c-99c57cdbba6a" />
-</div>
-
-<hr />
-
-Git is the most battle-tested software on Earth.  
-It’s also—quietly **a primitive WARP graph**.
-
-I run **[git-stunts](https://github.com/git-stunts)**: projects that treat Git plumbing as a foundation for unconventional systems—databases, content graphs, event buses, coordination protocols.
-
-### Planned Stunts
-
-| Part | Title | Status | Stunt | Lesson |
-|------|-------|--------|-------|--------|
-| I | Git as CMS | In Review | `commit-tree` as a DB-less API | Protocols reduce ops |
-| II | Git as KV Store | Planned | KV using OIDs + notes | CAP tradeoffs in the real world |
-| III | Git as Bus | Planned | `post-receive` hooks for pub/sub | Eventing under constraints |
-| IV | Git FUSE | Planned | Virtual filesystem via OIDs | Lazy hydration + virtualization |
-| V | Agent-Native Git | Planned | RAG + decisions via history | Verifiable memory for LLM work |
-| VI | Git as Zero-Trust Gateway | Planned | AST validation in hooks | Shift-left security at the transport |
-
-Follow along for some hot git 🔥 (and occasional self-inflicted pain).
-
-- **[git-cas](https://github.com/git-stunts/git-cas)** — Git, freebased: pure CAS that’ll knock your SHAs off. LFS hates this repo!
