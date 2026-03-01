@@ -1,6 +1,7 @@
 <div align="center">
 <a href="https://flyingrobots.dev">
-<img src="https://github.com/user-attachments/assets/a2715b53-e230-48dc-888b-0277661a8483" />
+<img src="https://github.com/user-attachments/assets/fc06206f-437f-49e2-bbd0-a72330b95579" />
+
 </a>
 
 <hr />
