@@ -1,4 +1,9 @@
-<div align="center"><h1><code><a href="https://flyingrobots.dev">Flying Robots</a></code></h1>
+<div align="center">
+<a href="https://flyingrobots.dev">
+<img src="https://github.com/user-attachments/assets/a2715b53-e230-48dc-888b-0277661a8483" />
+</a>
+
+<hr />
 
 ☕ Seattle, WA 🌲 <br />
 [Email](mailto:james@flyingrobots.dev) • [LinkedIn](https://linkedin.com/in/flyingrobots)
