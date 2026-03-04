@@ -136,7 +136,7 @@ It’s “graphs all the way down” with a practical goal: **systems that can e
 | **III** | *Computational Holography & Provenance Payloads*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17963669.svg)](https://doi.org/10.5281/zenodo.17963669) | ✅ Published | Recover full derivations from compact boundary data. |
 | **IV** | *Rulial Distance & Observer Geometry*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18038297.svg)](https://doi.org/10.5281/zenodo.18038297) | ✅ Published | Abstraction cost + time perception (Chronos–Kairos–Aion). |
 | **V** | *Emergent Dynamics from Deterministic Rewrite Systems*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18146884.svg)](https://doi.org/10.5281/zenodo.18146884) | ✅ Published | Emergence via coarse-graining (quantum/thermo analogs). |
-| **VI** | *Ethics & Sovereignty* | 🧪 **Draft** | Accountability and agency in replayable worldlines. |
+| **VI** | *Ethics of Deterministic Replay & Provenance Sovereignty*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18863648.svg)](https://doi.org/10.5281/zenodo.18863648) | ✅ Published | For mind-like systems, complete provenance is not only diagnostics; it is interior life in executable form. |
 | **VII** | *Architecture & Operating System* | 🧪 **Draft** | **Echo**, **Git-WARP**, and **Continuum**, networked WARP frontiers, and how to build systems based on WARP invariants. |
 
 ### Related Reading
