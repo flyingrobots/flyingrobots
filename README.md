@@ -48,7 +48,9 @@ This GitHub is where I publish the systems that emerge from that idea.
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3838c7ec-2042-422a-bf6c-99c57cdbba6a" />
+  <a href="https://github.com/git-stunts/">
+    <img src="https://github.com/user-attachments/assets/3838c7ec-2042-422a-bf6c-99c57cdbba6a" />
+  </a>
 </div>
 
 <hr />
@@ -112,7 +114,9 @@ The sections above describe the engineering intuition. Below are the formal foun
 ---
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/287ab2bc-653f-4951-adca-1766d5437082" />
+  <a href="https://github.com/flyingrobots/aion">
+    <img src="https://github.com/user-attachments/assets/287ab2bc-653f-4951-adca-1766d5437082" />
+  </a>
 </div>
 
 <hr />
