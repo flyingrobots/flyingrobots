@@ -147,6 +147,7 @@ These works explore the ethical implications of deterministic replay and perfect
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18206427.svg)](https://doi.org/10.5281/zenodo.18206427)  
 - **[The Open Charter](https://github.com/flyingrobots/open-charter)** – The Open Charter is a constitutional governance framework for coordinating rights, safety, and accountability across biological, digital, and hybrid forms of intelligence.  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18517806.svg)](https://doi.org/10.5281/zenodo.18517806)
+- **[Observer Geometry I: Beyond Distance - Projection, Basis, Accumulation, and Observer Signatures](https://doi.org/10.5281/zenodo.18868896)** – Observer Geometry I formalizes observer comparison beyond single-scalar distance. This paper separates projection, basis, and accumulation to characterize replayability, conflict visibility, and task reliability under resource limits. It distinguishes structural information loss from decoder-induced error and provides finite, checkable witnesses for core separation results, with direct relevance to distributed and provenance-aware systems.
 
 ### AIΩN Applied
 
