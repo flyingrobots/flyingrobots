@@ -13,13 +13,6 @@
 
 </div>
 
-<hr />
-
-# Senior Distributed Systems Engineer
-
-> [!important]
-> Currently seeking senior distributed systems / infrastructure roles.
-
 I’ve spent nearly two decades building production distributed systems, MMO backends, data platforms, DevOps pipelines, high-throughput event systems, custom engines, and infrastructure that had to survive reality.
 
 After years of debugging race conditions, chasing nondeterminism, and watching mutable state systems lie under pressure, I started asking a more fundamental question:
