@@ -1,5 +1,6 @@
 <div align="center">
-<a href="https://flyingrobots.dev"><img src="https://github.com/user-attachments/assets/75aa2c6e-54bc-4e43-8cdf-e4d6046b441b" /></a>
+<a href="https://flyingrobots.dev"><img src="https://github.com/user-attachments/assets/0bc6d672-c052-4ae0-902b-d924858d37e9" /></a>
+
 </div>
 
 <hr />
