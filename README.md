@@ -16,7 +16,7 @@ I've spent nearly two decades building systems. Custom AAA videogame engines and
 > What if computation wasn't about state at all?  
 > What if it was about structure evolving through rules?
 
-In the summer of 2025, I started exploring this question seriously and began writing the **AIΩN Foundations Series** as a way to formalize and document my research. I started by asking *what happens if we model computation using a graph that rewrites itself, recursively?* and then let the rest unfold naturally. Eight papers later, I conclude my research by reaching an entirely unexpected, but nevertheless beautiful discovery: there is no graph, there is no runtime, and there is no system — there is only witnessed causal history, and everything we call a "system" is an observer-relative reading of holograms produced by a recursive profunctor optic.
+In the summer of 2025, I started exploring this question seriously and began writing the **AIΩN Foundations Series** as a way to formalize and document my research. I started by asking *what happens if we model computation using a graph that rewrites itself, recursively?* and then let the rest unfold naturally. Eight papers later, I conclude my research by reaching an entirely unexpected, but nevertheless beautiful discovery: there is no graph, there is no runtime, and there is no system — there is only witnessed causal history, and everything we call a "system" is an observer-relative reading of it.
 
 <div align="center">
   <a href="https://github.com/flyingrobots/aion">
@@ -35,7 +35,7 @@ A sequence of eight papers deriving what happens when you stop storing state and
 4. If we treat that history as sovereign, we arrive at an **ethics of replay**: provenance is interior life in executable form. ([Paper VI](https://doi.org/10.5281/zenodo.18863648))
 5. If we unify the mechanics, we find a single, **scale-invariant WARP optic** that handles execution, merging, and transport identically. ([Paper VII](https://doi.org/10.5281/zenodo.19751149))
 
-**The conclusion:** if history is the only reality, then no runtime is ontologically prior. The "operating system" dissolves. In its place emerges **Continuum** a protocol to join. (Paper VIII — in progress)
+**The conclusion:** if history is the only reality, then no runtime is ontologically prior. The "operating system" dissolves. In its place emerges **Continuum** — a protocol to join. (Paper VIII — in progress)
 
 ---
 
