@@ -60,7 +60,7 @@ The AIΩN Foundations Series concludes by introducing a protocol-shaped causal m
   <a href="https://github.com/git-stunts/">
     <img src="https://github.com/user-attachments/assets/3838c7ec-2042-422a-bf6c-99c57cdbba6a" />
   </a>
-  <h2><i>What if there is more to Git than a VSC?</h2>
+  <h2><i>There is more to Git than VSC</i></h2>
 </div>
 
 ### I ❤️ Git
