@@ -89,26 +89,3 @@ Follow along for some hot git 🔥 (and occasional self-inflicted pain).
 ---
 
 ![compsci](https://github.com/user-attachments/assets/18067c4f-fad0-4838-ae12-1e7cc3a44b92)
-
----
-
-## Related Reading
-
-<a href="https://github.com/flyingrobots/aion-computer-book/blob/book/computer.pdf">
-  <img width="500" alt="Cosmic Doorway Illumination" src="https://github.com/user-attachments/assets/31d310c0-22d9-4068-822d-2d0f306787ca" align="left" />
-</a>
-
-**[CΩMPUTER: The Geometry of All Possible Machines](https://github.com/flyingrobots/aion-computer-book)** is the synthesis work. It pushes the AIΩN machinery to its philosophical and architectural limit, arguing that computation is not a human invention but the base reality — and providing the map for navigating the Multi-Rule Multi-World space where everything is witnessed all the way down.
-
-<p align="center"><a href="https://github.com/flyingrobots/aion-computer-book/blob/book/computer.pdf">READ CΩMPUTER FOR FREE ONLINE</a></p>
-
-<br clear="left"/>
-
-- **[Observer Geometry I: Beyond Distance](https://doi.org/10.5281/zenodo.18868896)** — Separates projection, basis & accumulation to characterize replayability & conflict visibility under resource limits.  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18868896.svg)](https://doi.org/10.5281/zenodo.18868896)
-
-- **[The Open Charter](https://github.com/flyingrobots/open-charter)** — Constitutional governance for coordinating rights, safety, and accountability across biological, digital, and hybrid intelligence.  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18517806.svg)](https://doi.org/10.5281/zenodo.18517806)
-
-- **[PRAXIS: A Field Guide to the Inevitable](https://github.com/flyingrobots/PRAXIS)** — An experiential model of how systems can make "choice" feel like friction.  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18206427.svg)](https://doi.org/10.5281/zenodo.18206427)
