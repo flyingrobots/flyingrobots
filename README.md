@@ -130,7 +130,8 @@ It’s “graphs all the way down” with a practical goal: **systems that can e
 | **IV** | *Rulial Distance & Observer Geometry*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18038297.svg)](https://doi.org/10.5281/zenodo.18038297) | ✅ Published | Abstraction cost + time perception (Chronos–Kairos–Aion). |
 | **V** | *Emergent Dynamics from Deterministic Rewrite Systems*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18146884.svg)](https://doi.org/10.5281/zenodo.18146884) | ✅ Published | Emergence via coarse-graining (quantum/thermo analogs). |
 | **VI** | *Ethics of Deterministic Replay & Provenance Sovereignty*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18863648.svg)](https://doi.org/10.5281/zenodo.18863648) | ✅ Published | For mind-like systems, complete provenance is not only diagnostics; it is interior life in executable form. |
-| **VII** | *Architecture & Operating System* | 🧪 **Draft** | **Echo**, **Git-WARP**, and **Continuum**, networked WARP frontiers, and how to build systems based on WARP invariants. |
+| **VII** | *WARP: Optics, Holograms, and Worldlines over Shared Causal History*<br />[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19751149.svg)](https://doi.org/10.5281/zenodo.19751149) | ✅ Published | Defines the scale-invariant WARP optic that unifies local execution, concurrent braids, and distributed transport. |
+| **VIII** | *Continuum: A Protocol for Distributed Causal Computation* | 🚧 Work-in-progress | There is no graph, there is no runtime, and there is no system — only witnessed causal history. This paper concludes the AIΩN Foundations Series by defining Continuum: a protocol for distributed causal computing in which coordination, governance, and trust emerge from witnessed admission alone. |
 
 ### Related Reading
 
