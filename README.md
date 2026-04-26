@@ -1,15 +1,13 @@
 <div align="center">
 <a href="https://flyingrobots.dev"><img src="https://github.com/user-attachments/assets/6bb97c5d-6de9-451e-a48f-6b11809dee14" /></a>
-</div>
-
-<hr />
-
 <h3>
 📥 <a href="mailto:james@flyingrobots.dev">Email</a>
 🔗 <a href="https://linkedin.com/in/flyingrobots">LinkedIn</a>
 📄 <a href="https://www.flyingrobots.dev/james-ross-resume.pdf">Résumé</a>
 </h3>
 </div>
+
+<hr />
 
 I've spent nearly two decades building systems. Custom AAA videogame engines and tools, application frontends and backends, MMORPG clients and servers, data platforms, DevOps pipelines, high-throughput event systems, and infrastructure for distributed systems that had to survive reality. After years of debugging race conditions, chasing nondeterminism, and watching mutable state systems lie under pressure, I started asking a more fundamental question.
 
