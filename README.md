@@ -11,10 +11,12 @@
 </h3>
 </div>
 
-I've spent nearly two decades building systems. Custom AAA videogame engines and tools, application frontends and backends, MMORPG clients and servers, data platforms, DevOps pipelines, high-throughput event systems, and infrastructure for distributed systems that had to survive reality. After years of debugging race conditions, chasing nondeterminism, and watching mutable state systems lie under pressure, I started asking a more fundamental question: 
+I've spent nearly two decades building systems. Custom AAA videogame engines and tools, application frontends and backends, MMORPG clients and servers, data platforms, DevOps pipelines, high-throughput event systems, and infrastructure for distributed systems that had to survive reality. After years of debugging race conditions, chasing nondeterminism, and watching mutable state systems lie under pressure, I started asking a more fundamental question.
 
-> What if computation wasn't about state at all?  
-> What if it was about structure evolving through rules?
+<div align="center">
+<h3><i>What if computation wasn't about state at all?<br />
+What if it was about structure evolving through rules?</i></h3>
+</div>
 
 In the summer of 2025, I started exploring this question seriously and began writing the **AIΩN Foundations Series** as a way to formalize and document my research. I started by asking *what happens if we model computation using a graph that rewrites itself, recursively?* and then let the rest unfold naturally. Eight papers later, I conclude my research by reaching an entirely unexpected, but nevertheless beautiful discovery: there is no graph, there is no runtime, and there is no system — there is only witnessed causal history, and everything we call a "system" is an observer-relative reading of it.
 
