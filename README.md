@@ -1,4 +1,4 @@
-# Principal Engineer  
+<div align="center"><img alt="FLYINGROBOTS_GOLD" src="https://github.com/user-attachments/assets/13dc4f4b-e87e-4498-a696-49075ff727b3" /></div>
 
 > Distributed Systems • Deterministic Runtimes • Causal Infrastructure  
 
@@ -16,12 +16,12 @@ The Continuum Stack is my answer: systems where **history is explicit, replay is
 
 ### The Continuum Stack
 
-- [**Continuum**](https://github.com/flyingrobots/continuum) — protocol for systems built on causal history instead of shared mutable state  
+- [**Continuum**](https://github.com/flyingrobots/continuum) — protocol for distributed systems built on causal history instead of shared mutable state  
 - [**Echo**](https://github.com/flyingrobots/echo) — deterministic runtime where every tick is witnessed and fully reproducible  
 - [**Wesley**](https://github.com/flyingrobots/wesley) — schema compiler that generates enforceable runtime contracts, codecs, and versioned causal semantics  
 - [**git-warp**](https://github.com/git-stunts/git-warp) — Git-native causal storage for offline-first systems with strong provenance  
 - [**WARP TTD**](https://github.com/flyingrobots/warp-ttd) — time-travel debugger that follows causal chains, not log lines  
-- **WARPDrive** (coming soon) — FUSE layer that materializes causal history as ordinary files and directories  
+- **WARPDrive** (in development) — FUSE layer that materializes causal history as ordinary files and directories  
 
 ---
 
