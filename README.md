@@ -4,13 +4,13 @@
 
 📥 [james@flyingrobots.dev](mailto:james@flyingrobots.dev) · 🔗 [LinkedIn](https://linkedin.com/in/flyingrobots) · 📄 [Résumé](https://www.flyingrobots.dev/james-ross-resume.pdf)
 
-I've spent two decades building systems where correctness survives concurrency — AAA game engines, MMORPG backends, live-service platforms, high-throughput distributed infrastructure.
+I've spent two decades building systems where correctness survives concurrency: AAA game engines, MMORPG backends, live-service platforms, high-throughput distributed infrastructure.
 
 Across all of it, the same failure mode kept surfacing: **state forgets how it became itself.**
 
-Race conditions, irreproducible bugs, and partial failures aren’t random — they’re what happens when history is invisible and mutation is implicit.
+Race conditions, irreproducible bugs, and partial failures aren’t random; they’re what happens when history is invisible and mutation is implicit.
 
-The Continuum Stack is my answer: systems where **history is explicit, replay is exact, and behavior is derived—not implied.**
+The Continuum Stack is my answer: systems where **history is explicit, replay is exact, and behavior is derived, not implied.**
 
 ---
 
@@ -35,4 +35,4 @@ The Continuum Stack is my answer: systems where **history is explicit, replay is
 
 ---
 
-If correctness matters after deployment—not just before it—I’d love to talk.
+I’d love to talk if you've got problems that need correctness after deployment, not just before it.
