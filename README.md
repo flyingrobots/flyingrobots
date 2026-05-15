@@ -5,7 +5,7 @@
   </a>
 </div>
 
-### Ontological Ladder of Computation
+### Ladder of Computation
 
 | Stratum | Level | Philosophy | Methodology |
 |----------|--------|-------------|----------------|
