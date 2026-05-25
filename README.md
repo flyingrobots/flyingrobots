@@ -1,3 +1,5 @@
+> I build deterministic developer infrastructure: schema compilers, Git-native provenance systems, replayable runtimes, terminal UI tooling, and agent-safe repo context systems. Most of the work is Rust/TypeScript. Start with Bijou for a runnable product, Wesley for compiler work, Echo/`git-warp` for causal runtime research.
+
 # My Work
 
 For decades, most systems have quietly inherited the Unix mental model: processes mutating files on a shared, hierarchical filesystem. State lives in place. Logs are best-effort. History is whatever you remembered to write to disk.
