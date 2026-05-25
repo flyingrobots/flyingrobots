@@ -20,50 +20,50 @@ The repositories below are materializations of this stack.
 
 ## Foundations
 
-**[Continuum](/)** — Shared protocol and contract language for witnessed causal history. The coordination layer that keeps sibling runtimes compatible without forcing them to share a database.
+**[Continuum](https://github.com/flyingrobots/continuum)** — Shared protocol and contract language for witnessed causal history. The coordination layer that keeps sibling runtimes compatible without forcing them to share a database.
 
-**[Wesley](/)** — GraphQL SDL compiler. One schema drives TypeScript, Rust, SQL, manifests, and runtime plans. Proven semantics, zero hand-maintained drift.
+**[Wesley](https://github.com/flyingrobots/wesley)** — GraphQL SDL compiler. One schema drives TypeScript, Rust, SQL, manifests, and runtime plans. Proven semantics, zero hand-maintained drift.
 
-**[METHOD](/)** — Lightweight engineering process framework backed by the filesystem. Backlog, cycle loop, retros, drift detection — no sprint theater.
+**[METHOD](https://github.com/flyingrobots/method)** — Lightweight engineering process framework backed by the filesystem. Backlog, cycle loop, retros, drift detection — no sprint theater.
 
 ---
 
 ## Storage & history
 
-**[git-warp](/)** — Git-native causal history engine. Patches over worldlines, speculative strands, canonical braids. Git's distribution model plus structured, replayable provenance.
+**[git-warp](https://github.com/git-stunts/git-warp)** — Git-native causal history engine. Patches over worldlines, speculative strands, canonical braids. Git's distribution model plus structured, replayable provenance.
 
-**[git-cas](/)** — Industrial-grade content-addressable storage inside Git's object database. Chunked, deduplicated, AES-256-GCM encrypted. No external artifact host required.
+**[git-cas](https://github.com/git-stunts/git-cas)** — Industrial-grade content-addressable storage inside Git's object database. Chunked, deduplicated, AES-256-GCM encrypted. No external artifact host required.
 
-**[Shiplog](/)** — Git-native deployment ledger. Signed, append-only deployment runs recorded inside Git refs. Every deploy step permanent, queryable, and reviewable.
+**[Shiplog](https://github.com/flyingrobots/shiplog)** — Git-native deployment ledger. Signed, append-only deployment runs recorded inside Git refs. Every deploy step permanent, queryable, and reviewable.
 
-**[Xyph](/)** — Planning compiler built on git-warp. Replaces scattered tickets with a single deterministic WARP graph. Cryptographic settlement, Ed25519 guild seals, offline-first.
+**[Xyph](https://github.com/flyingrobots/xyph)** — Planning compiler built on git-warp. Replaces scattered tickets with a single deterministic WARP graph. Cryptographic settlement, Ed25519 guild seals, offline-first.
 
-**[Think](/)** — Instant thought-capture engine. Raw ideas into a private Git-backed cognitive worldline. Capture speed over organization; browse and reflect later.
+**[Think](https://github.com/flyingrobots/think)** — Instant thought-capture engine. Raw ideas into a private Git-backed cognitive worldline. Capture speed over organization; browse and reflect later.
 
 ---
 
 ## Runtimes & reliability
 
-**[Echo](/)** — Deterministic runtime where state is a materialized view over immutable causal history. 300k+ rewrites/second at 60fps. Replay, time-travel, and provable transitions built in.
+**[Echo](https://github.com/flyingrobots/echo)** — Deterministic runtime where state is a materialized view over immutable causal history. 300k+ rewrites/second at 60fps. Replay, time-travel, and provable transitions built in.
 
-**[Alfred](/)** — Policy engine for async resilience in TypeScript. Composable, testable retry/backoff/circuit behavior with a live control plane.
+**[Alfred](https://github.com/git-stunts/alfred)** — Policy engine for async resilience in TypeScript. Composable, testable retry/backoff/circuit behavior with a live control plane.
 
-**[Nine Lives](/)** — Tower-native resilience framework for Rust. Algebraic composition of retry, timeout, circuit breaker, bulkhead, and fallback — plus runtime policy control.
+**[Nine Lives](https://github.com/flyingrobots/ninelives)** — Tower-native resilience framework for Rust. Algebraic composition of retry, timeout, circuit breaker, bulkhead, and fallback — plus runtime policy control.
 
 ---
 
 ## Interfaces & products
 
-**[Bijou](/)** — TypeScript toolkit for terminal software. Real character grid, layout engine, i18n, deterministic render output. Terminal as a serious application platform.
+**[Bijou](https://github.com/flyingrobots/bijou)** — TypeScript toolkit for terminal software. Real character grid, layout engine, i18n, deterministic render output. Terminal as a serious application platform.
 
-**[Geordi](/)** — Deterministic GPU scene IR for interactive vector UI. Canonical intermediate representation between authoring tools and WebGL/WebGPU/Metal/Vulkan backends.
+**[Geordi](https://github.com/flyingrobots/geordi)** — Deterministic GPU scene IR for interactive vector UI. Canonical intermediate representation between authoring tools and WebGL/WebGPU/Metal/Vulkan backends.
 
-**[Graft](/)** — Context governor for coding agents. Policy-enforced reads, parser-backed structural views, causal provenance over repo activity. Agents see the smallest safe view.
+**[Graft](https://github.com/flyingrobots/graft)** — Context governor for coding agents. Policy-enforced reads, parser-backed structural views, causal provenance over repo activity. Agents see the smallest safe view.
 
-**[jedit](/)** — Terminal-first text and Markdown editor over Echo and Graft. Vim-shaped. Edits are contract-shaped intents submitted to a causal runtime.
+**[jedit](https://github.com/flyingrobots/jedit)** — Terminal-first text and Markdown editor over Echo and Graft. Vim-shaped. Edits are contract-shaped intents submitted to a causal runtime.
 
 ---
 
 ## Debugging & observation
 
-**[WARP TTD](/)** — Time-travel debugger for deterministic causal runtimes. Inspect worldlines, receipts, rejected counterfactuals, and provenance. Pause, step, seek, fork.
+**[WARP TTD](https://github.com/flyingrobots/warp-ttd)** — Time-travel debugger for deterministic causal runtimes. Inspect worldlines, receipts, rejected counterfactuals, and provenance. Pause, step, seek, fork.
