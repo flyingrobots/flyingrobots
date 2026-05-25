@@ -1,4 +1,4 @@
-## Project Matrix
+## Art
 
 ### Foundations
 
