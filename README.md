@@ -1,42 +1,69 @@
-## Art
+# My Work
 
-### Foundations
+For decades, most systems have quietly inherited the Unix mental model: processes mutating files on a shared, hierarchical filesystem. State lives in place. Logs are best-effort. History is whatever you remembered to write to disk.
 
-| Project | Who | What | Where | When | Why | How | Tech | Nearest Neighbors |
-|---|---|---|---|---|---|---|---|---|
-| Continuum | Teams running multiple runtimes that must interoperate without sharing one database/graph. | Shared protocol and contract language for witnessed causal history and coordination truth. | At boundaries between runtimes/repos as the common coordination and witness layer. | When systems need to exchange causal histories and evidence, not just JSON or snapshots. | To keep sibling runtimes compatible while each keeps its own storage, schedulers, and materializations. | Defines contract families, admissibility, invariants, and witness rules for history crossing edges. | GraphQL schemas, contract families, type-safe tooling, stack-agnostic protocol specs. | Feels like “HTTP/GraphQL for causal history,” adjacent to CRDT/OT and API contract layers. |
-| Wesley | Teams using GraphQL SDL as a semantic source of truth and wanting drift-free generated artifacts across domains. | Semantic contract compiler that turns GraphQL SDL into a semantic graph and emits domain-specific outputs through extensions. | Between product/runtime truth and generated artifacts, at the contract and boundary layer. | When one schema needs to drive multiple outputs like TypeScript, Rust, SQL, manifests, codecs, and runtime plans. | To stabilize proven semantics and eliminate hand-maintained drift without turning the compiler into a runtime. | Compiles SDL plus directives into a semantic graph, then lets extensions interpret domain law and emit artifacts. | GraphQL SDL, semantic graph compilation, extension modules, generated bindings/codecs/manifests, Rust + TypeScript outputs. | Feels like “GraphQL-first semantic compiler,” adjacent to code generators, schema compilers, and IDL-driven toolchains. |
-| METHOD | Teams and solo builders working with both humans and agents who want calm, explicit software process. | Lightweight process framework with a backlog, a cycle loop, and honest bookkeeping. | In the repo itself, using the filesystem as the process database. | When you want reproducible work tracking without sprint theater, velocity metrics, or heavyweight PM tools. | To make design, testing, playback, retros, and shipping explicit and rerunnable. | Organizes work into backlog lanes and moves it through a pull → design → test → playback → close → review → ship loop. | CLI tooling, filesystem-backed workflow, design docs, witnesses, retros, drift detection. | Feels like “Git-native engineering process,” adjacent to lightweight PM systems, ADR workflows, and calm kanban. |
+That model scales surprisingly far, but it shows its limits under concurrency, distribution, and automation. Process-local mutation and ad hoc logging make it hard to answer basic questions: What actually happened? Who did it? In what order? Can we replay it?
 
-### Storage, History, and Coordination
+The work here is an experiment in a post‑Unix posture:
 
-| Project | Who | What | Where | When | Why | How | Tech | Nearest Neighbors |
-|---|---|---|---|---|---|---|---|---|
-| git-warp | Tool/infra builders who lean on Git and need offline, multi-writer, provenance-rich workflows. | Git-native history engine: patches over causal sites, speculative strands, canonical worldlines. | Inside Git repos, using Git objects/refs as storage for causal graph history. | When you want Git’s distribution plus structured histories, what-if lanes, and replayable provenance. | To make “what happened, according to whom, in what order” a first-class product, not branch folklore. | Admits patches into worldlines, keeps what-if work in strands, composes lanes via braids and observers. | Rust libraries over Git, custom refs/CAS layout, TS bindings, normal git push/fetch for sync. | Feels like “Git with first-class history algebra,” adjacent to DVCS, event stores, and time-travel tools. |
-| git-cas | Architects and operators who want Git-native, security-first artifact storage instead of external binary hosting. | Industrial-grade content-addressable storage engine backed by Git’s object database, with dedupe and first-class encryption. | Inside Git repos, reusing the object database as a GC-safe vault for blobs and manifests. | When centralized artifact hosts are a liability and binaries must replicate wherever Git can go, including offline. | To unify artifact integrity, privacy, and reachability with Git’s replication model, avoiding fragile external storage. | Chunks, dedupes, encrypts, and indexes assets into vault refs; restores via deterministic manifests and strict safety bounds. | Node.js/Bun/Deno ports, SHA-256 CAS, AES-256-GCM (whole/framed/convergent), hexagonal architecture, JSONL agent API, TUI cockpit. | Feels like “Git-native, security-first LFS/artifact store,” adjacent to Git LFS, S3-backed artifact repos, and OCI registries. |
-| Shiplog | Operators, release engineers, and teams that want deployment history to be auditable and Git-native. | Git-native deployment ledger that records signed, append-only deployment runs, metadata, and policy inside Git refs. | Inside your existing Git repo, separate from code branches, as a deployment truth layer. | When deployment logs are fragmented across dashboards, CI output, and ephemeral systems. | To make every deployment step permanent, queryable, signed, and reviewable without external SaaS or databases. | Captures command runs and manual entries into signed journal refs, enforces allow-list and quorum policy, and supports replay by deployment ID or anchor. | POSIX shell, Git refs, jq, SSH/Git signatures, structured JSON/JSONL output, policy-as-code. | Feels like “git commit for deployments,” adjacent to deployment ledgers, audit trails, CI logs, and GitOps tooling. |
-| Xyph | High-output teams coordinating humans and agents who want planning to be deterministic, offline-first, and authorization-aware. | Planning compiler and coordination foundation that replaces scattered tickets and chat threads with a single deterministic WARP graph. | At the coordination layer, above raw communication and below execution, as the shared plan/work graph. | When work needs to stay traceable from “why” to “shipped,” especially across multiple people, agents, and offline periods. | To make plans computable from immutable history, ensure every quest is authorized by intent genealogy, and settle completed work cryptographically. | Participants modify a shared planning graph through intents and quests; others observe and act via stigmergic coordination, with deterministic convergence and Ed25519 guild seals. | TypeScript, WARP/git-warp substrate, Bijou TUI, deterministic graph coordination, cryptographic settlement. | Feels like “Linear/Jira as a causal planning graph,” adjacent to issue trackers, workflow engines, and multi-agent coordination systems. |
-| Think | Individuals or teams who want instant, local-first thought capture with strong recall and reflection. | Instant thought-capture engine that records raw ideas quickly into a private Git-backed cognitive worldline. | On your machine, primarily through a terminal-first local workflow with TUI browsing. | When capture speed matters more than immediate organization, tagging, or retrieval-time enrichment. | To preserve the raw capture moment and build a durable, private, structurally explorable archive of thought. | Writes immutable entries fast, stores them in a local Git-backed repository, and layers browse/search/reflect workflows on top. | Node.js, Git-backed storage, terminal/TUI workflow, bounded search, structured reflection flows. | Feels like “git for thoughts,” adjacent to note apps, journaling tools, personal knowledge bases, and local-first capture systems. |
+- **Processes** become strands in a shared causal history, not anonymous workers scribbling over state.  
+- **Files** become materializations over history, not the source of truth.  
+- **The data model** is an append-only ledger of events with verifiable provenance, not mutable bytes at paths.  
+- **Time** is encoded in the causal structure of that ledger—links, worldlines, ticks, receipts—not in loose timestamps.  
+- **Runtimes** own admission, ordering, and replay; applications submit intents and consume evidence.  
 
-### Runtimes and Reliability
+You don’t fix a bug by guessing from logs—you derive it from the causal record. You don’t pray your editor and planner are in sync—you ask what the underlying history allows them to see.
 
-| Project | Who | What | Where | When | Why | How | Tech | Nearest Neighbors |
-|---|---|---|---|---|---|---|---|---|
-| Echo | Systems/platform engineers building deterministic, auditable simulations, editors, or pipelines. | Deterministic runtime where witnessed causal history is primary and state is an evidence-carrying reading. | As a post-Unix substrate under apps, between storage and product UIs/APIs. | When you need replay, time-travel debugging, and provable “what happened,” not best-effort state. | To kill whole classes of concurrency bugs and make every transition reproducible and explainable. | Owns admission, ticks, and scheduling; executes canonical intents into a hash-locked worldline with receipts. | Rust kernel, WASM-friendly contracts, GraphQL domain modeling, deterministic scheduler, content-addressed retention. | Near deterministic engines and event-sourced runtimes, but pushed toward “post-Unix worldline OS.” |
-| Alfred | Backend and platform teams that need robust, observable retry and resilience policies for async operations. | Policy engine for async resilience: composable, testable, and eventually live-tunable retry/backoff/circuit behavior. | Inside services and jobs as a shared resilience layer around calls to databases, queues, and external APIs. | When you want consistent resilience patterns across many services instead of bespoke try/catch and ad-hoc retry code. | To centralize and standardize resilience so behavior is predictable, observable, and later controllable at runtime. | Ships policies as code plus a control plane (`alfred-live`) and CLI to define, test, and publish shared resilience configs. | TypeScript/JS monorepo, pnpm, JS/JSR packages, shared semver across packages, release tooling and preflight checks. | Feels like “resilience policies as a product,” adjacent to Polly, Hystrix-style patterns, and service-mesh retry policies. |
-| Nine Lives | Rust backend and platform teams that need composable resilience and supervision for async services. | Tower-native resilience framework for Rust with algebraic composition of retry, timeout, circuit breaker, bulkhead, and fallback policies. | Inside async Rust services as the resilience and live policy control layer. | When service reliability needs more than ad hoc retry code or one-off middleware stacks. | To treat failure handling as a composable algebra instead of scattered imperative logic. | Wraps policies as Tower layers and composes them with algebraic operators for wrap, fallback, and race, plus a runtime control plane. | Rust, Tower, Tokio, schema-validated control plane, telemetry sinks, lock-free core options. | Feels like “Polly/Resilience4j for Tower, but algebraic and live-tunable,” adjacent to Tower middleware, Hystrix, and supervision trees. |
+The repositories below are materializations of this stack.
 
-### Interfaces and Products
+***
 
-| Project | Who | What | Where | When | Why | How | Tech | Nearest Neighbors |
-|---|---|---|---|---|---|---|---|---|
-| Bijou | Developers building serious terminal software, from CLI tools to full-screen TUI applications and docs workstations. | TypeScript toolkit for terminal software that treats the terminal as a real character grid, with layout, input, localization, lowering, and performance as first-class concerns. | At the UI/runtime layer for terminal products, powering prompts, CLI flows, framed apps, docs surfaces, and machine-readable render output. | When terminal applications need to be product-grade, inspectable, localized, deterministic, and fast rather than ad hoc ANSI scripts. | To make terminal software feel like a serious application platform instead of a low-resolution browser or throwaway CLI surface. | Provides pure UI contracts, an interactive TUI runtime, Node hosting adapters, app shells, Blocks for higher-level UI authoring, and DOGFOOD as the proving surface. | TypeScript, TEA-style TUI runtime, Node adapters, framed app shell, Blocks authoring system, i18n toolchain, Storybook-style preview tooling, MCP integration. | Feels like “React/Flutter for the terminal, but terminal-native,” adjacent to Ink, Bubble Tea, Blessed, and TUI component systems. |
-| Geordi | Frontend/graphics engineers building high-performance, GPU-native UIs that must render deterministically across platforms. | Deterministic GPU scene IR for interactive vector UI; a canonical intermediate representation between UI tools and GPU runtimes. | Between UI authoring frontends (Vue, Figma, SVG, etc.) and GPU runtimes (WebGL/WebGPU/Metal/Vulkan/wgpu). | When you want “same scene, same output” across browser and native backends, without CSS/layout engines in the hot path. | To get explicit, deterministic scene graphs and GPU-native rendering instead of DOM + CSS + layout thrash. | Compiles structured input into Geordi IR, then feeds that into interchangeable GPU runtimes via a shared runtime interface. | TypeScript compiler and IR packages, GraphQL SDL adapter, Rust runtimes, WebGL runtime, strict TS + hexagonal architecture. | Feels like “SceneKit/Skia-style scene IR for the GPU era,” adjacent to React/Flutter renderers and vector UI engines. |
-| Graft | Operators and tool authors running AI coding agents that need governed, structure-aware access to large repos. | Context governor for coding agents: policy-enforced reads, structural views, and causal provenance over repository activity. | Next to your repos as a daemon/API/CLI/MCP server that mediates all agent reads and structural queries. | When you want agents to see the smallest safe, structurally correct view instead of raw file dumps into context windows. | To protect secrets, bound context size, and give agents structured, machine-readable views plus provenance of what changed. | Enforces read policies, builds parser-backed structural views, tracks structural worldlines, and logs activity into strand-scoped workspaces. | TypeScript core, MCP + CLI + API surfaces, language parsers (TS/JS/Rust/GraphQL/Python/Go/etc.), same-user daemon. | Feels like “LangChain for repos, but with guardrails and provenance,” adjacent to code indexers, LSIF-style tools, and policy engines. |
-| jedit | Developers who want a fast, terminal-first editor with strong Vim-shaped workflows and causally explainable editing. | Terminal-first text and Markdown editor built on Bijou and shaped around causal history through Echo. | At the product layer, above Echo and alongside Graft, as the real editor that pressures the stack into honest seams. | When you want editing that stays minimal on the surface but can still explain what changed, why, and from which causal path. | To make causal editing usable without turning the editor into protocol theater, while proving replay, bounded reads, and evidence-bearing observations in a real product. | Submits contract-shaped edits to Echo, observes through `TextBufferOptic` and `ReadBasisHandle`, uses Graft for structural intelligence, and keeps runtime coordinates below the app boundary. | Terminal UI, Bijou, Echo/WASM witness path, Wesley-generated contracts, Graft integration, Markdown preview, Vim-shaped editing model. | Feels like “a quiet Vim-shaped editor over a causal runtime,” adjacent to Vim/Helix/Zed, but with evidence-bearing reads and replayable history as substrate truth. |
+## Foundations
 
-### Debugging and Observation
+**[Continuum](/)** — Shared protocol and contract language for witnessed causal history. The coordination layer that keeps sibling runtimes compatible without forcing them to share a database.
 
-| Project | Who | What | Where | When | Why | How | Tech | Nearest Neighbors |
-|---|---|---|---|---|---|---|---|---|
-| WARP TTD | Systems engineers debugging deterministic causal runtimes like git-warp and Echo. | Time-travel debugger and wide-aperture observer for deterministic graph systems and WARP-based runtimes. | Across causal runtimes as a host-neutral debugger sitting on top of a GraphQL protocol boundary. | When you need to inspect admitted history, rejected counterfactuals, provenance, and replay instead of transient state. | To debug the causal chain that produced a state, not just the state snapshot itself. | Uses host-capability-gated adapters to inspect worldlines, receipts, effects, and speculative strands, while supporting pause, step, seek, and fork. | TUI + CLI, GraphQL protocol, host adapters, deterministic replay model, provenance-oriented observer geometry. | Feels like “time-travel debugger for causal runtimes,” adjacent to rr, omniscient debugging, and distributed tracing—but history-first. |
+**[Wesley](/)** — GraphQL SDL compiler. One schema drives TypeScript, Rust, SQL, manifests, and runtime plans. Proven semantics, zero hand-maintained drift.
+
+**[METHOD](/)** — Lightweight engineering process framework backed by the filesystem. Backlog, cycle loop, retros, drift detection — no sprint theater.
+
+---
+
+## Storage & history
+
+**[git-warp](/)** — Git-native causal history engine. Patches over worldlines, speculative strands, canonical braids. Git's distribution model plus structured, replayable provenance.
+
+**[git-cas](/)** — Industrial-grade content-addressable storage inside Git's object database. Chunked, deduplicated, AES-256-GCM encrypted. No external artifact host required.
+
+**[Shiplog](/)** — Git-native deployment ledger. Signed, append-only deployment runs recorded inside Git refs. Every deploy step permanent, queryable, and reviewable.
+
+**[Xyph](/)** — Planning compiler built on git-warp. Replaces scattered tickets with a single deterministic WARP graph. Cryptographic settlement, Ed25519 guild seals, offline-first.
+
+**[Think](/)** — Instant thought-capture engine. Raw ideas into a private Git-backed cognitive worldline. Capture speed over organization; browse and reflect later.
+
+---
+
+## Runtimes & reliability
+
+**[Echo](/)** — Deterministic runtime where state is a materialized view over immutable causal history. 300k+ rewrites/second at 60fps. Replay, time-travel, and provable transitions built in.
+
+**[Alfred](/)** — Policy engine for async resilience in TypeScript. Composable, testable retry/backoff/circuit behavior with a live control plane.
+
+**[Nine Lives](/)** — Tower-native resilience framework for Rust. Algebraic composition of retry, timeout, circuit breaker, bulkhead, and fallback — plus runtime policy control.
+
+---
+
+## Interfaces & products
+
+**[Bijou](/)** — TypeScript toolkit for terminal software. Real character grid, layout engine, i18n, deterministic render output. Terminal as a serious application platform.
+
+**[Geordi](/)** — Deterministic GPU scene IR for interactive vector UI. Canonical intermediate representation between authoring tools and WebGL/WebGPU/Metal/Vulkan backends.
+
+**[Graft](/)** — Context governor for coding agents. Policy-enforced reads, parser-backed structural views, causal provenance over repo activity. Agents see the smallest safe view.
+
+**[jedit](/)** — Terminal-first text and Markdown editor over Echo and Graft. Vim-shaped. Edits are contract-shaped intents submitted to a causal runtime.
+
+---
+
+## Debugging & observation
+
+**[WARP TTD](/)** — Time-travel debugger for deterministic causal runtimes. Inspect worldlines, receipts, rejected counterfactuals, and provenance. Pause, step, seek, fork.
