@@ -104,7 +104,7 @@ The goal is systems that remember what happened well enough to replay it, not be
 | Project | Description |
 | :--- | :--- |
 | **[Graft](https://github.com/flyingrobots/graft)** | Context governor for coding agents. Policy-enforced reads, parser-backed structural views, and causal provenance over repo activity. Agents see the smallest safe view. |
-| **[blacklight](https://github.com/flyingrobots/blacklight)** | Agent-observation and inspection infrastructure. Add the public repo link here when ready, or remove it from the map if it is staying private. |
+| **[blacklight](https://github.com/flyingrobots/blacklight)** | Agent-observation and inspection infrastructure. |
 
 ### Libraries
 
