@@ -26,8 +26,13 @@ mindmap
     Start Here
       Bijou
       Wesley
+      Graft
       Echo
       git-warp
+    Research
+      AIΩN Foundation Series
+      Observer Geometry Series
+      WARP Drive
     Foundations
       Continuum
       Wesley
@@ -35,15 +40,18 @@ mindmap
       Echo
         jedit
       git-warp
-        Graft
         Think
         Xyph
+    Agent Infrastructure
+      Graft
+      blacklight
     Libraries
       Bijou
-        Alfred
+      Alfred
       Nine Lives
       git-cas
-    Standalone Tools
+    Tools & Debugging
+      WARP-TTD
       Geordi
       Shiplog
       METHOD
