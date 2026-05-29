@@ -1,5 +1,5 @@
-> I build deterministic developer infrastructure: schema compilers, Git-native provenance systems, replayable runtimes, terminal UI tooling, and agent-safe repo context systems. Most of the work is Rust/TypeScript. Start with Bijou for a runnable product, Wesley for compiler work, Echo/`git-warp` for causal runtime research.
-
+> I build deterministic developer infrastructure: schema compilers, Git-native provenance systems, replayable runtimes, terminal UI tooling, and agent-safe repo context systems. Most of the work is Rust and TypeScript.
+> 
 # My Work
 
 For decades, most systems have quietly inherited the Unix mental model: processes mutating files on a shared, hierarchical filesystem. State lives in place. Logs are best-effort. History is whatever you remembered to write to disk.
@@ -21,30 +21,41 @@ The repositories below are materializations of this stack.
 ***
 
 ```mermaid
- mindmap
-    root((Ecosystem))
-      Foundations
-        ))Continuum((
-        ))Wesley((
-      Runtimes & Apps
-        ))Echo((
-          jedit
-        ))git-warp((
-          Graft
-          Think
-          Xyph
-      Tooling
-        ))WARP-TTD((
-      Libraries
-        Bijou
-          Alfred
-        Nine Lives
-        git-cas
-      Standalone
-        Geordi
-        Shiplog
-        METHOD
+mindmap
+  root((Ecosystem))
+    Start Here
+      Bijou
+      Wesley
+      Echo
+      git-warp
+    Foundations
+      Continuum
+      Wesley
+    Runtimes & Apps
+      Echo
+        jedit
+      git-warp
+        Graft
+        Think
+        Xyph
+    Libraries
+      Bijou
+        Alfred
+      Nine Lives
+      git-cas
+    Standalone Tools
+      Geordi
+      Shiplog
+      METHOD
 ```
+
+## How the pieces fit
+
+- **Continuum** defines the shared causal-history protocol.
+- **Wesley** compiles schemas and contracts into code, plans, and runtime artifacts.
+- **Echo** and **git-warp** are sibling runtimes over deterministic, replayable history.
+- **Bijou**, **Graft**, **Think**, **Xyph**, and **jedit** are applications or interfaces built around that model.
+- **Alfred**, **Nine Lives**, and **git-cas** provide supporting resilience and storage infrastructure.
 
 ## Foundations
 
