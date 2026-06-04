@@ -68,7 +68,7 @@ This work explores a post-Unix runtime model:
 - **Time** is represented by causal structure, not loose wall-clock timestamps.
 - **Runtimes** own admission, ordering, and replay; applications submit intents and consume evidence.
 
-The goal is systems that remember what happened well enough to replay it, not better logs. Don’t hope your editor, planner, and agents are in sync; ask what the shared history allows each of them to see.
+The goal is systems that remember what happened well enough to replay it, not better logs. Don’t hope your editor, planner, and agents are in sync; ask what the shared history allows each of them to see. When an AI agent modifies a codebase, we should not have to guess what context it held or what rules it followed; we should be able to mathematically prove its optic and replay its footprint.
 
 ## How the Pieces Fit
 
