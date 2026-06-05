@@ -72,13 +72,13 @@ The goal is systems that remember what happened well enough to replay it, not be
 
 ## How the Pieces Fit
 
-- **Continuum** defines the shared causal-history protocol.
-- **Wesley** compiles schemas and contracts into code, plans, and runtime artifacts.
-- **Echo** and **git-warp** are sibling runtimes over deterministic, replayable history.
-- **Graft** and **blacklight** are the agent-infrastructure layer.
-- **Bijou**, **jedit**, **Think**, and **Xyph** are interfaces and applications built around the model.
-- **Alfred**, **Nine Lives**, and **git-cas** provide supporting resilience and storage infrastructure.
-- **WARP-TTD**, **Shiplog**, **Geordi**, and **METHOD** are tools for debugging, deployment, UI IR, and engineering process.
+- [**Continuum**](https://github.com/flyingrobots/continuum) defines the shared causal-history protocol.
+- [**Wesley**](https://github.com/flyingrobots/wesley) compiles schemas and contracts into code, plans, and runtime artifacts.
+- [**Echo**](https://github.com/flyingrobots/echo) and [**git-warp**](https://github.com/git-stunts/git-warp) are sibling runtimes over deterministic, replayable history.
+- [**Graft**](https://github.com/flyingrobots/graft) and [**blacklight**](https://github.com/flyingrobots/blacklight) are the agent-infrastructure layer.
+- [**Bijou**](https://github.com/flyingrobots/bijou), [**jedit**](https://github.com/flyingrobots/jedit), [**Think**](https://github.com/flyingrobots/think), and [**Xyph**](https://github.com/flyingrobots/xyph) are interfaces and applications built around the model.
+- [**Alfred**](https://github.com/git-stunts/alfred), [**Nine Lives**](https://github.com/flyingrobots/ninelives), and [**git-cas**](https://github.com/git-stunts/git-cas) provide supporting resilience and storage infrastructure.
+- [**WARP-TTD**](https://github.com/flyingrobots/warp-ttd), [**Shiplog**](https://github.com/flyingrobots/shiplog), [**Geordi**](https://github.com/flyingrobots/geordi), and [**METHOD**](https://github.com/flyingrobots/method) are tools for debugging, deployment, UI IR, and engineering process.
 
 ## Projects
 
