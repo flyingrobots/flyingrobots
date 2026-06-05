@@ -74,6 +74,7 @@ The goal is systems that remember what happened well enough to replay it, not be
 
 - [**Continuum**](https://github.com/flyingrobots/continuum) defines the shared causal-history protocol.
 - [**Wesley**](https://github.com/flyingrobots/wesley) compiles schemas and contracts into code, plans, and runtime artifacts.
+- [**WARP Drive**](https://github.com/flyingrobots/warp-drive) mounts a FUSE-backed POSIX membrane over witnessed causal history, so your legacy tools can participate.
 - [**Echo**](https://github.com/flyingrobots/echo) and [**git-warp**](https://github.com/git-stunts/git-warp) are sibling runtimes over deterministic, replayable history.
 - [**Graft**](https://github.com/flyingrobots/graft) and [**blacklight**](https://github.com/flyingrobots/blacklight) are the agent-infrastructure layer.
 - [**Bijou**](https://github.com/flyingrobots/bijou), [**jedit**](https://github.com/flyingrobots/jedit), [**Think**](https://github.com/flyingrobots/think), and [**Xyph**](https://github.com/flyingrobots/xyph) are interfaces and applications built around the model.
@@ -120,6 +121,7 @@ The goal is systems that remember what happened well enough to replay it, not be
 | Project | Description |
 | :--- | :--- |
 | **[WARP-TTD](https://github.com/flyingrobots/warp-ttd)** | Time-travel debugger for deterministic causal runtimes. Inspect worldlines, receipts, rejected counterfactuals, and provenance. Pause, step, seek, fork. |
+| **[WARP Drive](https://github.com/flyingrobots/warp-drive)** | A FUSE-backed POSIX membrane over witnessed causal history. Mount causal runtimes as files, keep normal tools, and make every write declare its basis. |
 | **[Geordi](https://github.com/flyingrobots/geordi)** | Deterministic GPU scene IR for interactive vector UI. Canonical intermediate representation between authoring tools and WebGL/WebGPU/Metal/Vulkan backends. |
 | **[Shiplog](https://github.com/flyingrobots/shiplog)** | Git-native deployment ledger. Signed, append-only deployment runs recorded inside Git refs. Every deploy step permanent, queryable, and reviewable. |
 | **[METHOD](https://github.com/flyingrobots/method)** | Lightweight engineering process framework backed by the filesystem. Backlog, cycle loop, retros, drift detection — no sprint theater. |
