@@ -60,7 +60,7 @@ That model scales surprisingly far, but it breaks down under concurrency, distri
 - What did each actor see?
 - Can we replay, fork, or verify the result?
 
-This work explores a post-Unix runtime model:
+### This work explores a post-Unix runtime model
 
 - **Processes** become named actors in a shared causal history.
 - **Files** become materialized views over history, not the source of truth.
